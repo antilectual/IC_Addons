@@ -7,7 +7,7 @@ Monitors IC for a forced conversion blessings window. If found, closes IC, sends
 #
 ## Instructions:
 Instructions:
-1. Place this addon's folder in the script's AddOn folder.
+1. Place this addon's files in the ``IC_ConvertBlessings_Mini`` folder inside the script's AddOn folder.
 2. Edit ``IC_ConvertBlessings_Mini_Component.ahk`` and find ``convertToBlessing := 1``. Change the 1 to the value of the favor/blessing you want your favor to be converted to.
   > **Note:** Valid Target Favors: 1 (Torm), 3 (Kalemvor), 15 (Helm), 22 (Tiamat), 23 (Auril), 25 (Corellon)
 3. Start Script Hub
