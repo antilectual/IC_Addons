@@ -1,0 +1,9 @@
+{
+	"Name":"ConvertCurrency Mini Script",
+	"Version": "v0.0.1",
+    "Includes" : "IC_ConvertBlessings_Mini_Includes.ahk",
+    "Author" : "antilectual",
+    "Url" : "http://www.github.com/antilectual/IC_Addons/IC_ConvertBlessings_Mini",
+    "Info" : "Monitors IC for a forced conversion blessings window. If found, closes IC, sends convert favor server call, reopens IC if not open yet.",
+    "Dependencies" : []
+}
