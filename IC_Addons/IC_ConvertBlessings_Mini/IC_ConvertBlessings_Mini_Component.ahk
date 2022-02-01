@@ -32,17 +32,11 @@ class IC_ConvertBlessings_Mini
         convertToBlessing := 1
         if (g_SF.Memory.GetForceConvertFavor())
         {
-            MsgBox 4,, Forced Conversion Detected, Restart IC?
-            IfMsgBox Yes
-            {
-                convertFromBlessing := g_SF.Memory.GetBlessingsCurrency()
-                g_SF.ResetServerCall()
-                g_SF.CloseIC("Forced Blessings Conversion Detected")
-                g_ServerCall.CallConverCurrency(convertToBlessing, convertFromBlessing) 
-                g_SF.SafetyCheck()
-            }
-            IfMsgBox No
-                return
+            convertFromBlessing := g_SF.Memory.GetBlessingsCurrency()
+            g_SF.ResetServerCall()
+            g_SF.CloseIC("Forced Blessings Conversion Detected")
+            g_ServerCall.CallConverCurrency(convertToBlessing, convertFromBlessing) 
+            g_SF.SafetyCheck()
         }
     }
 }
