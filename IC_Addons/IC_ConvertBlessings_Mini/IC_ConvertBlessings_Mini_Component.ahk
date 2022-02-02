@@ -2,6 +2,13 @@ g_Miniscripts["{CC6FC77B-2E35-494C-A28F-64226DFEE811}"] := A_LineFile . "\..\IC_
 
 class IC_ConvertBlessings_Mini
 {
+    SF := new IC_SharedFunctions_Class ; includes MemoryFunctions in g_SF.Memory
+
+    __new()
+    {
+        this.SF := new IC_SharedFunctions_Class ; includes MemoryFunctions in g_SF.Memory
+    }
+
     CreateTimedFunctions()
     {
         this.fncToCallOnTimer :=  ObjBindMethod(this, "ForcedConversionCheck")
@@ -14,13 +21,6 @@ class IC_ConvertBlessings_Mini
         SetTimer, %fncCall%, 5000, 0
     }
 
-    StopTimedFunctions()
-    {
-        fncCall := this.fncToCallOnTimer
-        SetTimer, %fncCall%, Off
-        SetTimer, %fncCall%, Delete
-    }
-
     Close()
     {
         ExitApp
@@ -29,15 +29,14 @@ class IC_ConvertBlessings_Mini
     ForcedConversionCheck()
     {
         convertToBlessing := 1
-        g_SF := new IC_SharedFunctions_Class ; includes MemoryFunctions in g_SF.Memory
-        g_SF.Memory.OpenProcessReader() ; required to check if 64 bit
-        if (g_SF.Memory.GetForceConvertFavor())
+        this.SF.Memory.OpenProcessReader()
+        if (this.SF.Memory.GetForceConvertFavor())
         {
             convertFromBlessing := g_SF.Memory.GetBlessingsCurrency()
-            g_SF.ResetServerCall()
-            g_SF.CloseIC("Forced Blessings Conversion Detected")
-            g_ServerCall.CallConverCurrency(convertToBlessing, convertFromBlessing) 
-            g_SF.SafetyCheck()
+            this.SF.ResetServerCall()
+            this.SF.CloseIC("Forced Blessings Conversion Detected")
+            ServerCall.CallConverCurrency(convertToBlessing, convertFromBlessing) 
+            this.SF.SafetyCheck()
         }
     }
 }
