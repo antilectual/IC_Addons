@@ -28,8 +28,9 @@ class IC_ConvertBlessings_Mini
 
     ForcedConversionCheck()
     {
-        g_SF := new IC_SharedFunctions_Class ; includes MemoryFunctions in g_SF.Memory
         convertToBlessing := 1
+        g_SF := new IC_SharedFunctions_Class ; includes MemoryFunctions in g_SF.Memory
+        g_SF.Memory.OpenProcessReader() ; required to check if 64 bit
         if (g_SF.Memory.GetForceConvertFavor())
         {
             convertFromBlessing := g_SF.Memory.GetBlessingsCurrency()
