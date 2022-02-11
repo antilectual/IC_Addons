@@ -1,0 +1,9 @@
+{
+	"Name":"MoveGameWindow Mini Script",
+	"Version": "v0.0.1",
+    "Includes" : "IC_MoveGameWindow_Mini_Includes.ahk",
+    "Author" : "antilectual",
+    "Url" : "https://github.com/antilectual/IC_Addons/tree/main/IC_Addons/IC_MoveGameWindow_Mini",
+    "Info" : "Monitors IC for a the game being closed. Once it detects that it is open again the game window will be moved to the position defined in settings.",
+    "Dependencies" : []
+}
