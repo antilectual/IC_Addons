@@ -8,7 +8,7 @@ Monitors IC for a the game being closed. Once it detects that it is open again t
 ## Instructions:
 Instructions:
 1. Place this addon's files in the ``IC_MoveGameWindow_Mini`` folder inside the script's AddOn folder.
-2. Edit ``IC_MoveGameWindow_Mini_Component.ahk`` and find ``WinMove``. Edit it to the placement you want the game window to be. (See ahk WinMove docs)[https://www.autohotkey.com/docs/commands/WinMove.htm]
+2. Edit ``IC_MoveGameWindow_Mini_Component.ahk`` and find ``WinMove``. Edit it to the placement you want the game window to be. (See [ahk WinMove docs](https://www.autohotkey.com/docs/commands/WinMove.htm))
 3. Start Script Hub
 4. Enable this addon from the Script Hub Addon Manager.
 5. Press the Start Gem Farm button in Briv Gem Farm.
