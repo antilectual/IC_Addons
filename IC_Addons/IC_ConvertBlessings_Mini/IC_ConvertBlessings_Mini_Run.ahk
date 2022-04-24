@@ -7,9 +7,7 @@
 #include %A_LineFile%\..\..\..\SharedFunctions\IC_SharedFunctions_Class.ahk
 #include %A_LineFile%\..\..\..\ServerCalls\IC_ServerCalls_Class.ahk
 
-
 global g_ConvertBlessings_Mini := new IC_ConvertBlessings_Mini
-global g_ServerCall
 
 g_ConvertBlessings_Mini.CreateTimedFunctions()
 g_ConvertBlessings_Mini.StartTimedFunctions()
@@ -24,5 +22,3 @@ ComObjectRevoke()
 return
 
 OnExit(ComObjectRevoke())
-
-
