@@ -38,8 +38,11 @@ class IC_BrivEventsSharedFunctions_Class
     ;     }
     ;     return gold
     ; }
+}
 
-    DoPartySetup()
+class IC_BrivEventsGemFarm_Class
+{
+        DoPartySetup()
     {
         formationFavorite1 := g_SF.Memory.GetFormationByFavorite( 1 )
         isShandieInFormation := g_SF.IsChampInFormation( 47, formationFavorite1 )
