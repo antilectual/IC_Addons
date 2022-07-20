@@ -1,0 +1,14 @@
+{
+	"Name":"Briv Gem Farm for Events",
+	"Version": "v1.0.0",
+    "Includes" : "IC_BrivGemFarm_Component.ahk",
+    "Author" : "Antilectual",
+    "Url" : "https://github.com/mikebaldi/Idle-Champions/tree/main/AddOns/IC_BrivGemFarm_Events",
+    "Info" : "This Addon pauses the script and alerts the user when Briv will not have stacks to reach the min stack zone on the next run.",
+    "Dependencies" : [
+        {
+            "Name":"Briv Gem Farm",
+            "Version":"v1.1.0"
+        }
+    ]
+}
