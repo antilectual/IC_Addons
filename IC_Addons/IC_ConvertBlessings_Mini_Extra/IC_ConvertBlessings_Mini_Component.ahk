@@ -1,4 +1,6 @@
-g_Miniscripts["{CC6FC77B-2E35-494C-A28F-64226DFEE811}"] := A_LineFile . "\..\IC_ConvertBlessings_Mini_Run.ahk"
+g_GuidCreate := ComObjCreate("Scriptlet.TypeLib")
+g_guid := g_GuidCreate.Guid
+g_Miniscripts[g_guid] := A_LineFile . "\..\IC_ConvertBlessings_Mini_Run.ahk"
 global g_ServerCall
 class IC_ConvertBlessings_Mini
 {

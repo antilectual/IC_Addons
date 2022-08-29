@@ -1,4 +1,4 @@
-#SingleInstance force
+;#SingleInstance force
 #NoTrayIcon
 #Persistent
 
@@ -12,7 +12,7 @@ global g_ConvertBlessings_Mini := new IC_ConvertBlessings_Mini
 g_ConvertBlessings_Mini.CreateTimedFunctions()
 g_ConvertBlessings_Mini.StartTimedFunctions()
 
-ObjRegisterActive(g_ConvertBlessings_Mini, "{CC6FC77B-2E35-494C-A28F-64226DFEE811}")
+ObjRegisterActive(g_ConvertBlessings_Mini, A_Args[1])
 
 ComObjectRevoke()
 {

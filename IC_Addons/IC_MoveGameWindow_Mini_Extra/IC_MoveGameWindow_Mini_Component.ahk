@@ -1,4 +1,6 @@
-g_Miniscripts["{1007D57F-0EA0-402F-A30A-55972194009D}"] := A_LineFile . "\..\IC_MoveGameWindow_Mini_Run.ahk"
+g_GuidCreate := ComObjCreate("Scriptlet.TypeLib")
+g_guid := g_GuidCreate.Guid
+g_Miniscripts[g_guid] := A_LineFile . "\..\IC_MoveGameWindow_Mini_Run.ahk"
 class IC_MoveGameWindow_Mini
 {
     SF := new IC_SharedFunctions_Class ; includes MemoryFunctions in g_SF.Memory
@@ -22,7 +24,7 @@ class IC_MoveGameWindow_Mini
     }
 
     MoveIdleDragonsWindow() {
-        if((Hwnd := WinExist( "ahk_exe IdleDragons.exe" )) AND Hwnd != this.SF.Hwnd )
+        if((Hwnd := WinExist( "ahk_exe " . g_UserSettings["ExeName"] )) AND Hwnd != this.SF.Hwnd )
         {
                 this.SF.Hwnd := Hwnd
                 this.SF.Memory.OpenProcessReader()
