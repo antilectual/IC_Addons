@@ -21,9 +21,10 @@ class IC_BrivEventsGemFarm_Class
             keyspam.Push("{ClickDmg}")
             g_SF.DirectedInput(,release :=0, keyspam*) ;keysdown
         }
-        g_SF.ModronResetZone := g_SF.Memory.GetCoreTargetAreaByInstance(g_SF.Memory.ReadActiveGameInstance()) ; once per zone in case user changes it mid run.
+        g_SF.ModronResetZone := g_SF.Memory.GetModronResetArea() ; once per zone in case user changes it mid run.
         g_SF.Memory.ActiveEffectKeyHandler.Refresh()
-        if(g_SF.CalculateBrivStacksLeftAtTargetZone(g_BrivUserSettings[ "MinStackZone" ] + 49 + 5) <= 49 )
+        reqStacks := g_SF.CalculateBrivStacksLeftAtTargetZone(1, g_BrivUserSettings[ "MinStackZone" ] + 49 + 5) 
+        if(reqStacks <= 49 )
             MsgBox, Stacking required to `continue event runs. Set modron core's reset area to min stack zone + 2 skips. Press `OK to `continue.
         else if(g_SF.ModronResetZone >= g_BrivUserSettings[ "MinStackZone" ])
             MsgBox, Stacking complete. Set modron back to 50.
