@@ -1,12 +1,14 @@
 # No Modron Adventuring
 ## Description:
-An add on based on mikebaldi's No Modron Leveling that will level and specialize champions, spam ultimates, and reset adventures with no modron automation.
+An add on based on mikebaldi's No Modron Leveling that will level and specialize champions, spam ultimates, and reset adventures with no modron automation. It is meant to help automate progress to get to the point where the player has automation on their core and can get Briv, at which point it is *highly* recommended to swap to using Briv Gem Farm.
+
 #
 ## Instructions:
 Instructions:
 1. If it is your first time using, press the 'Select/Create Spec. Settings' button and select the desired specializations for each champion.
 2. If it is your first time using, press the 'Load Max. Lvl Data' button.
 3. In game, load the desires formations to formation favorites 1/Q.
+4. Enter the last area you want the adventure to restart at.
 5. Press the 'Start Modronless Adventuring' Button.
 
 > Note: If a champion rework or rebalance results in different or new upgrades you may need to repeat Instruction steps 1 and 2.

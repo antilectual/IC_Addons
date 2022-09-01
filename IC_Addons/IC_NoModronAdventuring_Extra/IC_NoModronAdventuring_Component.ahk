@@ -33,7 +33,8 @@ Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_SpecSettings, Select/Create Spe
 Gui, ICScriptHub:Add, Text, x15 y+10, Max. Level Data Status: 
 Gui, ICScriptHub:Add, Text, x+5 vNMA_MaxLvl w300, % g_NMAMaxLvl.TimeStamp ? "Loaded and dated " . g_NMAMaxLvl.TimeStamp : "Not Loaded"
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_BuildMaxLvlData, Load Max. Level Data
-Gui, ICScriptHub:Add, Text, x15 y+15, Select the formations to level and specialize
+Gui, ICScriptHub:Add, Text, x15 y+15, Choose area to restart the adventure at:
+Gui, ICScriptHub:Add, Edit, vNMA_RestartZone x15 y+10 w50, % g_NMAResetZone
 Gui, ICScriptHub:Add, Checkbox, vNMA_CB1 x15 y+5 Checked, "Q"
 Gui, ICScriptHub:Add, Checkbox, x15 y+5 vNMA_FireUlts , Fire Ultimates
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_RunAdventuring, Start Modronless Adventuring
@@ -65,6 +66,7 @@ NMA_RunAdventuring()
     g_SF.Memory.OpenProcessReader()
     g_NMAlvlObj := new IC_NMA_Functions
     Gui, ICScriptHub:Submit, NoHide
+    g_NMAResetZone := NMA_RestartZone
     formationKey := {1:"q"} ; {1:"q", 2:"w", 3:"e"}
     favoriteFormation := 1
     g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
