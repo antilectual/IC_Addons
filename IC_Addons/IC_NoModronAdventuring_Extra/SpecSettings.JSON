@@ -1,0 +1,1053 @@
+{
+	"1":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Shield Master",
+			"UpgradeID":"6"
+		}
+	],
+	"2":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":0,
+			"SpecName":"War Domain",
+			"UpgradeID":"29"
+		}
+	],
+	"3":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":0,
+			"SpecName":"Oath of Vengeance",
+			"UpgradeID":"43"
+		}
+	],
+	"4":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Secret Lord of Luskan",
+			"UpgradeID":"58"
+		}
+	],
+	"5":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":80,
+			"RequiredUpgradeID":"0",
+			"SpecName":"College of Valor",
+			"UpgradeID":"75"
+		}
+	],
+	"6":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":10,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Bond: Humans",
+			"UpgradeID":"90"
+		},
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":325,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Bond: Half n' Half",
+			"UpgradeID":"975"
+		}
+	],
+	"7":[
+		{
+			"Choice":1,
+			"Choices":5,
+			"RequiredLvl":80,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Favored Enemy: Humanoids",
+			"UpgradeID":"108"
+		}
+	],
+	"8":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Font of Magic",
+			"UpgradeID":"129"
+		}
+	],
+	"9":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":15,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Dark Luck",
+			"UpgradeID":"139"
+		}
+	],
+	"10":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":45,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Moonbeam",
+			"UpgradeID":"145"
+		}
+	],
+	"11":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":60,
+			"RequiredUpgradeID":0,
+			"SpecName":"Bruiser",
+			"UpgradeID":"239"
+		}
+	],
+	"12":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":65,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Bulk Up",
+			"UpgradeID":"243"
+		}
+	],
+	"13":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":160,
+			"RequiredUpgradeID":"0",
+			"SpecName":"More Daggers",
+			"UpgradeID":"386"
+		}
+	],
+	"14":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":275,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Ki Overflow",
+			"UpgradeID":"428"
+		}
+	],
+	"15":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":60,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Cantrip: Thunderclap",
+			"UpgradeID":"445"
+		}
+	],
+	"16":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":130,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Circle of the Mountain",
+			"UpgradeID":"551"
+		}
+	],
+	"17":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":210,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Empowered Orbs",
+			"UpgradeID":"598"
+		}
+	],
+	"18":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":180,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Leader of the Companions",
+			"UpgradeID":"635"
+		}
+	],
+	"19":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":80,
+			"RequiredUpgradeID":0,
+			"SpecName":"Greater Blessing",
+			"UpgradeID":"643"
+		}
+	],
+	"20":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":50,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Ruby Encouragement (Ahead)",
+			"UpgradeID":"695"
+		},
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Ruby Weakness (Ranged)",
+			"UpgradeID":"697"
+		}
+	],
+	"21":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Theme of Valor",
+			"UpgradeID":"745"
+		},
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":0,
+			"SpecName":"Soloist",
+			"UpgradeID":"3673"
+		}
+	],
+	"22":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":90,
+			"RequiredUpgradeID":0,
+			"SpecName":"Lead The Pack",
+			"UpgradeID":"860"
+		}
+	],
+	"23":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":175,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Anxious Fireballs",
+			"UpgradeID":"3676"
+		}
+	],
+	"24":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":240,
+			"RequiredUpgradeID":0,
+			"SpecName":"Kensei Advantage",
+			"UpgradeID":"898"
+		}
+	],
+	"25":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Follow-Up",
+			"UpgradeID":"1037"
+		}
+	],
+	"26":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":300,
+			"RequiredUpgradeID":0,
+			"SpecName":"Fighting Style: Protection",
+			"UpgradeID":"1080"
+		}
+	],
+	"27":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"More Minions",
+			"UpgradeID":"1133"
+		}
+	],
+	"28":[
+		{
+			"Choice":2,
+			"Choices":3,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":0,
+			"SpecName":"Epic Tale of Little Kobold",
+			"UpgradeID":"1153"
+		}
+	],
+	"29":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":175,
+			"RequiredUpgradeID":0,
+			"SpecName":"Trying Extra Hard",
+			"UpgradeID":"1195"
+		}
+	],
+	"30":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Resist the Curse",
+			"UpgradeID":"1237"
+		}
+	],
+	"31":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":240,
+			"RequiredUpgradeID":0,
+			"SpecName":"Friend to Shorties",
+			"UpgradeID":"1243"
+		}
+	],
+	"32":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":265,
+			"RequiredUpgradeID":0,
+			"SpecName":"Heavy Blows",
+			"UpgradeID":"1511"
+		}
+	],
+	"33":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":160,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Dark One's Luck",
+			"UpgradeID":"1550"
+		}
+	],
+	"34":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":205,
+			"RequiredUpgradeID":0,
+			"SpecName":"Ohhhhh Yeaaaaaah!",
+			"UpgradeID":"1594"
+		}
+	],
+	"35":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":0,
+			"SpecName":"Spy Network",
+			"UpgradeID":"1658"
+		}
+	],
+	"36":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":140,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Eldritch Smite",
+			"UpgradeID":"1899"
+		}
+	],
+	"37":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":75,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Dig In",
+			"UpgradeID":"1945"
+		}
+	],
+	"38":{
+		
+	},
+	"39":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":280,
+			"RequiredUpgradeID":0,
+			"SpecName":"Luck of the Vistani",
+			"UpgradeID":"2038"
+		}
+	],
+	"40":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":215,
+			"RequiredUpgradeID":0,
+			"SpecName":"Assassinate",
+			"UpgradeID":"2111"
+		}
+	],
+	"43":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Centi-pult",
+			"UpgradeID":"2264"
+		}
+	],
+	"46":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":180,
+			"RequiredUpgradeID":0,
+			"SpecName":"Extended Warranty",
+			"UpgradeID":"2391"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":315,
+			"RequiredUpgradeID":0,
+			"SpecName":"Co-Signers",
+			"UpgradeID":"2394"
+		}
+	],
+	"47":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":230,
+			"RequiredUpgradeID":0,
+			"SpecName":"Ranger Training",
+			"UpgradeID":"2777"
+		}
+	],
+	"49":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":450,
+			"RequiredUpgradeID":0,
+			"SpecName":"A Lawful Mission",
+			"UpgradeID":"2950"
+		}
+	],
+	"50":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":360,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Counting Class",
+			"UpgradeID":"3035"
+		}
+	],
+	"53":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":180,
+			"RequiredUpgradeID":0,
+			"SpecName":"Plague Focus: {Pilfer}#0F0",
+			"UpgradeID":"3214"
+		}
+	],
+	"54":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":400,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Observance: Friend",
+			"UpgradeID":"3269"
+		}
+	],
+	"55":[
+		{
+			"Choice":1,
+			"Choices":4,
+			"RequiredLvl":240,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Fine As Is",
+			"UpgradeID":"3330"
+		},
+		{
+			"Choice":1,
+			"Choices":4,
+			"RequiredLvl":300,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Keep It Simple",
+			"UpgradeID":"3334"
+		},
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":420,
+			"RequiredUpgradeID":3334,
+			"SpecName":"Tight Formation",
+			"UpgradeID":"3340"
+		}
+	],
+	"56":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":275,
+			"RequiredUpgradeID":0,
+			"SpecName":"Speedy Sacrifice",
+			"UpgradeID":"3436"
+		}
+	],
+	"57":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Simple Infection",
+			"UpgradeID":"3443"
+		}
+	],
+	"58":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":170,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Metalborn",
+			"UpgradeID":"3455"
+		}
+	],
+	"59":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":0,
+			"SpecName":"Bonus Adaption",
+			"UpgradeID":"3513"
+		}
+	],
+	"60":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":400,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Close Up Magic",
+			"UpgradeID":"3525"
+		}
+	],
+	"61":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":50,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Class Warfare - Spellslingers",
+			"UpgradeID":"3632"
+		},
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":225,
+			"RequiredUpgradeID":0,
+			"SpecName":"Protective - Nature",
+			"UpgradeID":"3635"
+		}
+	],
+	"62":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":0,
+			"SpecName":"Mass Appeal",
+			"UpgradeID":"3998"
+		}
+	],
+	"63":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Trust in Law",
+			"UpgradeID":"4041"
+		}
+	],
+	"65":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":320,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Long-Lost Friends",
+			"UpgradeID":"4343"
+		}
+	],
+	"66":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":300,
+			"RequiredUpgradeID":0,
+			"SpecName":"Stolen Power",
+			"UpgradeID":"4480"
+		}
+	],
+	"67":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":120,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Scent: Roasted Chicken",
+			"UpgradeID":"3277"
+		}
+	],
+	"68":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":435,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Shield Guardian",
+			"UpgradeID":"4349"
+		}
+	],
+	"69":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Tiamat's Word",
+			"UpgradeID":"4492"
+		}
+	],
+	"72":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":370,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Dichromancy",
+			"UpgradeID":"4698"
+		}
+	],
+	"73":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":220,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Baeloth's Birthday Party",
+			"UpgradeID":"4749"
+		}
+	],
+	"74":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":300,
+			"RequiredUpgradeID":0,
+			"SpecName":"Path Finder",
+			"UpgradeID":"4765"
+		}
+	],
+	"75":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":240,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Did We Say Humans? We Meant...",
+			"UpgradeID":"4833"
+		}
+	],
+	"76":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Blazing Soul",
+			"UpgradeID":"4909"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Sirens' Connection",
+			"UpgradeID":"4911"
+		}
+	],
+	"77":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":315,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Expansive Vision",
+			"UpgradeID":"5380"
+		}
+	],
+	"78":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Breath of the Phoenix",
+			"UpgradeID":"5576"
+		}
+	],
+	"79":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Sunday Edition",
+			"UpgradeID":"5650"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":400,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Blinding Wall of Light",
+			"UpgradeID":"5652"
+		}
+	],
+	"81":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":120,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Relentless Avenger",
+			"UpgradeID":"5785"
+		},
+		{
+			"Choice":1,
+			"Choices":1,
+			"RequiredLvl":230,
+			"RequiredUpgradeID":0,
+			"SpecName":"Tyr's Eyes",
+			"UpgradeID":"5788"
+		}
+	],
+	"82":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":180,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Explosive Rally",
+			"UpgradeID":"5985"
+		}
+	],
+	"84":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":600,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Eldritch Torrent",
+			"UpgradeID":"6072"
+		}
+	],
+	"85":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":220,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Distant Crewmates",
+			"UpgradeID":"6133"
+		}
+	],
+	"86":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":160,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Champions of Good",
+			"UpgradeID":"5459"
+		}
+	],
+	"87":[
+		{
+			"Choice":2,
+			"Choices":6,
+			"RequiredLvl":270,
+			"RequiredUpgradeID":0,
+			"SpecName":"Red Leader, Standing By",
+			"UpgradeID":"6147"
+		}
+	],
+	"88":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":20,
+			"RequiredUpgradeID":"0",
+			"SpecName":"High Strength",
+			"UpgradeID":"6838"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":50,
+			"RequiredUpgradeID":0,
+			"SpecName":"High Dexterity",
+			"UpgradeID":"6840"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":90,
+			"RequiredUpgradeID":0,
+			"SpecName":"High Constitution",
+			"UpgradeID":"6978"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":130,
+			"RequiredUpgradeID":"0",
+			"SpecName":"High Intelligence",
+			"UpgradeID":"6976"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":170,
+			"RequiredUpgradeID":"0",
+			"SpecName":"High Wisdom",
+			"UpgradeID":"6980"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":210,
+			"RequiredUpgradeID":0,
+			"SpecName":"High Charisma",
+			"UpgradeID":"6842"
+		}
+	],
+	"89":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":230,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Splash of Yellow",
+			"UpgradeID":"6219"
+		}
+	],
+	"92":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Hunger For Blood",
+			"UpgradeID":"6989"
+		}
+	],
+	"93":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":80,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Holy Power",
+			"UpgradeID":"6999"
+		}
+	],
+	"94":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":160,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Especially Shiny",
+			"UpgradeID":"7167"
+		}
+	],
+	"95":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Bless Their Hearts",
+			"UpgradeID":"7180"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"That Doesn't Belong Here",
+			"UpgradeID":"7183"
+		}
+	],
+	"96":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Double Time",
+			"UpgradeID":"7304"
+		}
+	],
+	"97":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":140,
+			"RequiredUpgradeID":0,
+			"SpecName":"Your Friends are My Friends",
+			"UpgradeID":"7387"
+		}
+	],
+	"98":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Genius with Gold",
+			"UpgradeID":"7538"
+		}
+	],
+	"99":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":0,
+			"SpecName":"Special Guest Star",
+			"UpgradeID":"7848"
+		}
+	],
+	"100":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":70,
+			"RequiredUpgradeID":0,
+			"SpecName":"Piercing Bolts",
+			"UpgradeID":"7859"
+		}
+	],
+	"101":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Stink Like Skunk",
+			"UpgradeID":"7997"
+		}
+	],
+	"102":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"A Grave Experience",
+			"UpgradeID":"8013"
+		}
+	],
+	"104":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":110,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Inner Circle: $voronika_inner_circle_0",
+			"UpgradeID":"8642"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":1000,
+			"RequiredUpgradeID":0,
+			"SpecName":"Assist the Puppet",
+			"UpgradeID":"8645"
+		}
+	],
+	"105":[
+		{
+			"Choice":1,
+			"Choices":4,
+			"RequiredLvl":160,
+			"RequiredUpgradeID":0,
+			"SpecName":"Befriend the Magical",
+			"UpgradeID":"8742"
+		}
+	],
+	"106":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Sliced Souls",
+			"UpgradeID":"7523"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Resilient Spirit",
+			"UpgradeID":"7526"
+		}
+	],
+	"LoadTime":{
+		
+	},
+	"TimeStamp":"August 31, 2022, 15:22:13"
+}
