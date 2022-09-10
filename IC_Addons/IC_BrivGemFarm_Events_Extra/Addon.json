@@ -1,6 +1,6 @@
 {
 	"Name":"Briv Gem Farm for Events",
-	"Version": "v1.0.0",
+	"Version": "v1.0.1",
     "Includes" : "IC_BrivGemFarm_Component.ahk",
     "Author" : "Antilectual",
     "Url" : "https://github.com/mikebaldi/Idle-Champions/tree/main/AddOns/IC_BrivGemFarm_Events",
