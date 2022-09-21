@@ -314,17 +314,25 @@ class IC_MemoryUpdater_Class
         }
         try
         {
-            remoteFile := this.GetRemoteFile(VersionCheckURL32Bit) ; check for 32 bit file exists and grab it if it does
-            hasUpdate32 := this.HasRemoteImportsUpdate(remoteFile, 32) ; compare version to current version
-            remoteFile := this.GetRemoteFile(VersionCheckURL64Bit)
-            hasUpdate64 := this.HasRemoteImportsUpdate(remoteFile, 64)
+            remoteFile32 := this.GetRemoteFile(VersionCheckURL32Bit) ; check for 32 bit file exists and grab it if it does
+            hasUpdate32 := this.HasRemoteImportsUpdate(remoteFile32, 32) ; compare version to current version
+            remoteFile64 := this.GetRemoteFile(VersionCheckURL64Bit)
+            hasUpdate64 := this.HasRemoteImportsUpdate(remoteFile64, 64)
         }
         catch except
         {
             this.ShowUnexpectedError(except, "ImportUpdatesAvailable")
             return
         }
-        this.UpdateTextForUpdate((hasUpdate32 OR hasUpdate64), "ImportUpdatesAvailable") ; Update user visible text to display status
+        version32 := this.GetGameVersionFromFile(remoteFile32) 
+        version64 := this.GetGameVersionFromFile(remoteFile64)
+        additionalInfo := "`nCurrent: " . (version64 ? (g_ImportsGameVersion64 . g_ImportsGameVersionPostFix64 . " (64-bit), Remote: " . version64) : (version32 ? (g_ImportsGameVersion32 . g_ImportsGameVersionPostFix32 . " (32-bit), Remote: " . version32) : g_ImportsGameVersion64 . g_ImportsGameVersionPostFix64 . " (64-bit), Remote: Unknown"))
+        ; 64 bit update will override 32 bit update
+        if(hasUpdate32)
+            additionalInfo := "`nCurrent: " . g_ImportsGameVersion32 . g_ImportsGameVersionPostFix32 . " (32-bit), Remote: " . version32
+        if(hasUpdate64)
+            additionalInfo := "`nCurrent: " . g_ImportsGameVersion64 . g_ImportsGameVersionPostFix64 . " (64-bit), Remote: " . version64
+        this.UpdateTextForUpdate((hasUpdate32 OR hasUpdate64), "ImportUpdatesAvailable", additionalInfo) ; Update user visible text to display status
     }
 
     ; Formats the exception message and displays it to the textLabel
@@ -378,14 +386,18 @@ class IC_MemoryUpdater_Class
     }
 
     ; Updates textBoxToUpdate with a specified text based on whether a new update has been found.
-    UpdateTextForUpdate(hasUpdate, textBoxToUpdate)
+    UpdateTextForUpdate(hasUpdate, textBoxToUpdate, additionalInfo := "")
     {
+        test := StrLen(additionalInfo)
+        if (StrLen(additionalInfo) > 20)
+            GuiControl, MemoryUpdater:-0x200, %textBoxToUpdate%,
+            ;additionalInfo := "`n" . additionalInfo
         if(hasUpdate == 0 AND textBoxToUpdate)
-            GuiControl, MemoryUpdater:, %textBoxToUpdate%, No Update required
+            GuiControl, MemoryUpdater:, %textBoxToUpdate%, No Update required . %additionalInfo%
         else if (hasUpdate == "")
             GuiControl, MemoryUpdater:, %textBoxToUpdate%, Unexpected Error
         else
-            GuiControl, MemoryUpdater:, %textBoxToUpdate%, Update Available
+            GuiControl, MemoryUpdater:, %textBoxToUpdate%, Update Available . %additionalInfo%
         Gui, MemoryUpdater:Show
     }
 
@@ -447,6 +459,7 @@ class IC_MemoryUpdater_Class
         response := ""
         WR := ComObjCreate( "WinHttp.WinHttpRequest.5.1" )
         WR.SetTimeouts( timeoutVal, timeoutVal, timeoutVal, timeoutVal )  
+        WR.SetProxy( 2, "127.0.0.1:9877" ) 
         WR.Open( "GET", url, true )
         WR.Send()
         WR.WaitForResponse( -1 )

@@ -7,10 +7,10 @@ SetBatchLines -1
 Gui, MemoryUpdater:Font, s11 Bold
 Gui, MemoryUpdater:Add, GroupBox, x9 y5 w343 h170, Imports
 Gui, MemoryUpdater:Font
-Gui, MemoryUpdater:Add, DropDownList, x17 y41 w165 vImportsDrowndownList, ||
-Gui, MemoryUpdater:Add, Button, x192 y41 w30 h21 gUpdater_Add_To_Imports, +
-Gui, MemoryUpdater:Add, Button, x+5 y41 w30 h21 vUpdater_Remove_Imports gUpdater_Remove_From_List, -
-Gui, MemoryUpdater:Add, Button, x+5 y41 w80 h21 gUpdater_Check_Imports, Check
+Gui, MemoryUpdater:Add, DropDownList, x17 y48 w165 vImportsDrowndownList, ||
+Gui, MemoryUpdater:Add, Button, x192 y48 w30 h21 gUpdater_Add_To_Imports, +
+Gui, MemoryUpdater:Add, Button, x+5 y48 w30 h21 vUpdater_Remove_Imports gUpdater_Remove_From_List, -
+Gui, MemoryUpdater:Add, Button, x+5 y48 w80 h21 gUpdater_Check_Imports, Check
 Gui, MemoryUpdater:Add, Text, x18 y+20 w235 h32 +0x200 vImportUpdatesAvailable,
 Gui, MemoryUpdater:Add, Button, x262 yp+0 w80 h21 gUpdater_Download_Imports, Download
 
@@ -23,11 +23,11 @@ Gui, MemoryUpdater:Add, Button, x547 y48 w30 h21 gUpdater_Add_To_Pointers, +
 Gui, MemoryUpdater:Add, Button, x+5 y49 w30 h21 vUpdater_Remove_PointerDB gUpdater_Remove_From_List, -
 Gui, MemoryUpdater:Add, Button, x+5 y49 w80 h21 gUpdater_Check_PointerDB, Check
 Gui, MemoryUpdater:Add, Text, x376 y80 w121 h21, Specific Pointer
-Gui, MemoryUpdater:Add, DropDownList, x375 y98 w165 vCurrentPointersDrowndownList, ||
-Gui, MemoryUpdater:Add, Button, x549 y98 w30 h21 gUpdater_Add_To_CurrentPointer, +
+Gui, MemoryUpdater:Add, DropDownList, x373 y98 w165 vCurrentPointersDrowndownList, ||
+Gui, MemoryUpdater:Add, Button, x547 y98 w30 h21 gUpdater_Add_To_CurrentPointer, +
 Gui, MemoryUpdater:Add, Button, x+5 y98 w30 h21 vUpdater_Remove_CurrentPointer gUpdater_Remove_From_List, -
 Gui, MemoryUpdater:Add, Button, x+5 y98 w80 h21 gUpdater_Check_CurrentPointer, Check
-Gui, MemoryUpdater:Add, Text, x379 y+5 w235 h42 +0x200 vPointersUpdatesAvailable,
+Gui, MemoryUpdater:Add, Text, x373 y+5 w235 h42 +0x200 vPointersUpdatesAvailable,
 Gui, MemoryUpdater:Add, Button, x620 yp+15 w80 h21 gUpdater_Download_Pointer, Download
 
 
