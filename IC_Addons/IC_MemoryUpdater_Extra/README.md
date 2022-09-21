@@ -15,7 +15,7 @@ The addon will add a button to the About tab that launch a utility for updating 
 ## Imports:  
 > Currently only supports Github repositories.
 
->&#x26a0;&#xfe0f;Warning:  Imports are AHK scripts contain code that can be executed on your computer. Be sure you trust the location you are downloading imports from before downloading them into IC Script Hub.
+>&#x26a0;&#xfe0f;Warning:  Imports are AHK scripts and contain code that can be executed on your computer. Be sure you trust the location you are downloading imports from before downloading them into IC Script Hub.
 
  How to use:
  1. Select a location from the drop down list. 
