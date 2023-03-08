@@ -1,6 +1,6 @@
 {
 	"Name":"MoveGameWindow Mini Script",
-	"Version": "v0.0.2",
+	"Version": "v0.0.1",
     "Includes" : "IC_MoveGameWindow_Mini_Includes.ahk",
     "Author" : "antilectual",
     "Url" : "https://github.com/antilectual/IC_Addons/tree/main/IC_Addons/IC_MoveGameWindow_Mini",

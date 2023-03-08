@@ -3,7 +3,7 @@
 	"Version": "v0.0.1",
     "Includes" : "IC_MemoryUpdater_Launcher.ahk",
     "Author" : "antilectual",
-    "Url" : "https://github.com/antilectual/IC_Addons/tree/main/IC_Addons/IC_MemoryUpdater",
+    "Url" : "https://github.com/antilectual/IC_Addons/tree/main/IC_Addons/IC_MemoryUpdater_Extra",
     "Info" : "Checks for updated imports or pointers and downloads them.",
     "Dependencies" : [
         {

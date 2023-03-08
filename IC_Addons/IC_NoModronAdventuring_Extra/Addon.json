@@ -3,7 +3,7 @@
 	"Version": "v0.0.1",
     "Includes" : "IC_NoModronAdventuring_Component.ahk",
     "Author" : "mikebaldi1980 & Antilectual",
-    "Url" : "",
+    "Url" : "https://github.com/antilectual/IC_Addons/tree/main/IC_Addons/IC_NoModronAdventuring_Extra",
     "Info" : "An add on that will level and specialize champions, cast ultimates, and restart adventures without Modron Automation.",
     "Dependencies" : {}
 }
