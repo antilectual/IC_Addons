@@ -19,10 +19,8 @@ class IC_BrivEventsGemFarm_Class
         g_SF.ModronResetZone := g_SF.Memory.GetModronResetArea() ; once per zone in case user changes it mid run.
         g_SF.Memory.ActiveEffectKeyHandler.Refresh()
         reqStacks := g_SF.CalculateBrivStacksLeftAtTargetZone(1, g_BrivUserSettings[ "MinStackZone" ] + 49 + 5) 
-        if(reqStacks <= 49 )
-            MsgBox, Stacking required to `continue event runs. Set modron core's reset area to min stack zone + 2 skips. Press `OK to `continue.
-        else if(g_SF.ModronResetZone >= g_BrivUserSettings[ "MinStackZone" ])
-            MsgBox, Stacking complete. Set modron back to 50.
+        if(reqStacks <= 49 AND g_SF.Memory.ReadCurrentZone() > g_BrivUserSettings[ "MinStackZone" ])
+            this.StackFarm()
         if (g_SF.ShouldDashWait())
             g_SF.DoDashWait( Max(g_SF.ModronResetZone - g_BrivUserSettings[ "DashWaitBuffer" ], 0) )
         g_SF.ToggleAutoProgress( 1, false, true )

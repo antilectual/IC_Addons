@@ -10,3 +10,5 @@ class IC_BrivGemFarm_Events_Component
     }
 }
 IC_BrivGemFarm_Events_Component.InjectAddon()
+GuiControl, ICScriptHub: +cF18500, Warning_Imports_Bad,
+GuiControl, ICScriptHub:Text, Warning_Imports_Bad, % "Warning: Events BrivGemFarm addon is currently enabled."
