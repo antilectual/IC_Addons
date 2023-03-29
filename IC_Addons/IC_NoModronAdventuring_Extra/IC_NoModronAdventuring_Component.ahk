@@ -23,7 +23,7 @@ if !IsObject(g_NMAMaxLvl)
 
 Gui, ICScriptHub:Tab, No Modron Adventuring
 Gui, ICScriptHub:Font, w700
-Gui, ICScriptHub:Add, Text, x15 y80, ALPHA No Modron Adventure
+Gui, ICScriptHub:Add, Text, x15 y80, BETA No Modron Adventure
 Gui, ICScriptHub:Add, Text, x15 y+2, No Modron Leveling, Specing, Ulting, and Resetting
 Gui, ICScriptHub:Font, w400
 Gui, ICScriptHub:Add, Text, x15 y+5, NOTE: This add on will take control of the mouse to select specializations.
@@ -35,17 +35,16 @@ Gui, ICScriptHub:Add, Text, x+5 vNMA_MaxLvl w300, % g_NMAMaxLvl.TimeStamp ? "Loa
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_BuildMaxLvlData, Load Max. Level Data
 Gui, ICScriptHub:Add, Text, x15 y+15, Choose area to restart the adventure at:
 Gui, ICScriptHub:Add, Edit, vNMA_RestartZone x15 y+10 w50, % g_NMAResetZone
-Gui, ICScriptHub:Add, Checkbox, vNMA_CB1 x15 y+5 Checked, "Q"
+Gui, ICScriptHub:Add, Checkbox, vNMA_CB1 x15 y+5 Checked Hidden, "Q"
+Gui, ICScriptHub:Add, Checkbox, x15 y+5 vNMA_LevelClick , Upgrade Click Damage
 Gui, ICScriptHub:Add, Checkbox, x15 y+5 vNMA_FireUlts , Fire Ultimates
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_RunAdventuring, Start Modronless Adventuring
-
-Gui, ICScriptHub:Add, Text, x15 y+15 vNMA_Formation w300,
-Gui, ICScriptHub:Add, Text, x15 y+5 vNMA_Champ w300,
+Gui, ICScriptHub:Add, Text, x15 y+15 w300, Stop Adventuring button may need to be pushed multple times. Click until box pops up.
 Gui, ICScriptHub:Add, Button, x15 y+10 w100 gNMA_StopAdventuring, Stop Adventuring
 
 NMA_StopAdventuring()
 {
-    g_NMADoAdventuring := False
+    global g_NMADoAdventuring := False
 }
 
 NMA_RunAdventuring()
@@ -70,23 +69,26 @@ NMA_RunAdventuring()
     formationKey := {1:"q"} ; {1:"q", 2:"w", 3:"e"}
     favoriteFormation := 1
     g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
-    While, g_NMADoAdventuring
+    while (g_NMADoAdventuring)
     {
-        isLevelingDone := false
+        isLevelingDone := False
         isReset := False
-        while, % !isLevelingDone AND !isReset AND g_NMADoAdventuring
+        while (!isLevelingDone AND !isReset AND g_NMADoAdventuring)
         {
-            loop, 3
-                g_SF.DirectedInput(,, formationKey[favoriteFormation])
+            g_NMAlvlObj.DirectedInputNoCritical(,, formationKey[favoriteFormation])
             for k, v in g_NMAChampsToLevel
             { 
+                Sleep, 20
                 if (k == -1 OR !k)
                     continue
                 name := g_SF.Memory.ReadChampNameByID(k)
                 g_NMAlvlObj.NMA_LevelAndSpec(favoriteFormation, k)
             }
-            g_SF.ToggleAutoProgress(0)
-            g_SF.ToggleAutoProgress(1)
+            if (NMA_LevelClick)
+                g_NMAlvlObj.DirectedInputNoCritical(,, "{ClickDmg}")
+            if (!Mod( g_SF.Memory.ReadCurrentZone(), 5 ) AND Mod( g_SF.Memory.ReadHighestZone(), 5 ) AND !g_SF.Memory.ReadTransitioning())
+                g_SF.ToggleAutoProgress( 1, true ) ; Toggle autoprogress to skip boss bag
+            g_SF.ToggleAutoProgress(1,false)
             if(NMA_FireUlts)
                 g_NMAlvlObj.NMA_UseUltimates(favoriteFormation)
             isReset := g_NMAlvlObj.NMA_CheckForReset()
@@ -98,12 +100,15 @@ NMA_RunAdventuring()
             }
             isLevelingDone := g_NMAlvlObj.NMA_CheckForLevelingDone()
             g_SF.SafetyCheck()
+            Sleep, 100
         }
-        while, % !isReset AND g_NMADoAdventuring
+        while (!isReset AND g_NMADoAdventuring)
         {
             isReset := g_NMAlvlObj.NMA_CheckForReset()
             g_SF.SafetyCheck()
             g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
+            if (NMA_LevelClick)
+                g_NMAlvlObj.DirectedInputNoCritical(,, "{ClickDmg}")
             g_SF.ToggleAutoProgress(0)
             g_SF.ToggleAutoProgress(1)
             if(NMA_FireUlts)
@@ -112,6 +117,11 @@ NMA_RunAdventuring()
         }
         g_SF.SafetyCheck()
         g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
+        if !(g_NMADoAdventuring)
+        {
+            msgbox, Adventuring Stopped.
+            return
+        }
     }
 }
 

@@ -71,7 +71,7 @@
 		{
 			"Choice":1,
 			"Choices":5,
-			"RequiredLvl":80,
+			"RequiredLvl":50,
 			"RequiredUpgradeID":"0",
 			"SpecName":"Favored Enemy: Humanoids",
 			"UpgradeID":"108"
@@ -190,11 +190,11 @@
 	"19":[
 		{
 			"Choice":1,
-			"Choices":2,
-			"RequiredLvl":80,
+			"Choices":3,
+			"RequiredLvl":130,
 			"RequiredUpgradeID":0,
 			"SpecName":"Greater Blessing",
-			"UpgradeID":"643"
+			"UpgradeID":"10689"
 		}
 	],
 	"20":[
@@ -219,18 +219,18 @@
 		{
 			"Choice":1,
 			"Choices":3,
-			"RequiredLvl":100,
+			"RequiredLvl":60,
 			"RequiredUpgradeID":"0",
 			"SpecName":"Theme of Valor",
-			"UpgradeID":"745"
+			"UpgradeID":"10778"
 		},
 		{
 			"Choice":1,
 			"Choices":3,
-			"RequiredLvl":200,
+			"RequiredLvl":130,
 			"RequiredUpgradeID":0,
-			"SpecName":"Soloist",
-			"UpgradeID":"3673"
+			"SpecName":"Unison",
+			"UpgradeID":"10781"
 		}
 	],
 	"22":[
@@ -386,16 +386,23 @@
 	"37":[
 		{
 			"Choice":1,
-			"Choices":2,
-			"RequiredLvl":75,
+			"Choices":3,
+			"RequiredLvl":80,
 			"RequiredUpgradeID":"0",
-			"SpecName":"Dig In",
-			"UpgradeID":"1945"
+			"SpecName":"Kelemvor's Heal",
+			"UpgradeID":"9745"
 		}
 	],
-	"38":{
-		
-	},
+	"38":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":0,
+			"SpecName":"Efficient Bookkeeping",
+			"UpgradeID":"1983"
+		}
+	],
 	"39":[
 		{
 			"Choice":1,
@@ -416,14 +423,54 @@
 			"UpgradeID":"2111"
 		}
 	],
+	"41":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Matriarch",
+			"UpgradeID":"2154"
+		}
+	],
+	"42":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":225,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Stormcaller",
+			"UpgradeID":"8784"
+		}
+	],
 	"43":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Kobold Family",
+			"UpgradeID":"10681"
+		}
+	],
+	"44":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Expanded Blessing",
+			"UpgradeID":"8771"
+		}
+	],
+	"45":[
 		{
 			"Choice":1,
 			"Choices":2,
 			"RequiredLvl":200,
-			"RequiredUpgradeID":"0",
-			"SpecName":"Centi-pult",
-			"UpgradeID":"2264"
+			"RequiredUpgradeID":0,
+			"SpecName":"Group Tactics",
+			"UpgradeID":"2328"
 		}
 	],
 	"46":[
@@ -449,19 +496,29 @@
 			"Choice":1,
 			"Choices":3,
 			"RequiredLvl":230,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Known Allies",
+			"UpgradeID":"9730"
+		}
+	],
+	"48":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":210,
 			"RequiredUpgradeID":0,
-			"SpecName":"Ranger Training",
-			"UpgradeID":"2777"
+			"SpecName":"Darkmagic Cheer Squad",
+			"UpgradeID":"2891"
 		}
 	],
 	"49":[
 		{
 			"Choice":1,
 			"Choices":2,
-			"RequiredLvl":450,
-			"RequiredUpgradeID":0,
-			"SpecName":"A Lawful Mission",
-			"UpgradeID":"2950"
+			"RequiredLvl":300,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Voice of Resilience",
+			"UpgradeID":"10663"
 		}
 	],
 	"50":[
@@ -472,6 +529,34 @@
 			"RequiredUpgradeID":"0",
 			"SpecName":"Counting Class",
 			"UpgradeID":"3035"
+		}
+	],
+	"51":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":100,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Mirror Focus (Good)",
+			"UpgradeID":"3095"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":0,
+			"SpecName":"Sturdy Mirrors",
+			"UpgradeID":"3098"
+		}
+	],
+	"52":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":225,
+			"RequiredUpgradeID":0,
+			"SpecName":"Dedicated Guardian",
+			"UpgradeID":"8763"
 		}
 	],
 	"53":[
@@ -566,36 +651,36 @@
 			"Choices":2,
 			"RequiredLvl":400,
 			"RequiredUpgradeID":"0",
-			"SpecName":"Close Up Magic",
-			"UpgradeID":"3525"
+			"SpecName":"Keep Your Friends Close",
+			"UpgradeID":"9634"
 		}
 	],
 	"61":[
 		{
 			"Choice":1,
-			"Choices":3,
-			"RequiredLvl":50,
+			"Choices":4,
+			"RequiredLvl":30,
 			"RequiredUpgradeID":"0",
-			"SpecName":"Class Warfare - Spellslingers",
-			"UpgradeID":"3632"
+			"SpecName":"Class Act - Spellslingers",
+			"UpgradeID":"9714"
 		},
 		{
 			"Choice":1,
-			"Choices":3,
-			"RequiredLvl":225,
+			"Choices":4,
+			"RequiredLvl":180,
 			"RequiredUpgradeID":0,
-			"SpecName":"Protective - Nature",
-			"UpgradeID":"3635"
+			"SpecName":"Hunter - Nature",
+			"UpgradeID":"9718"
 		}
 	],
 	"62":[
 		{
 			"Choice":1,
 			"Choices":2,
-			"RequiredLvl":200,
+			"RequiredLvl":300,
 			"RequiredUpgradeID":0,
-			"SpecName":"Mass Appeal",
-			"UpgradeID":"3998"
+			"SpecName":"New Recruits",
+			"UpgradeID":"8753"
 		}
 	],
 	"63":[
@@ -606,6 +691,24 @@
 			"RequiredUpgradeID":"0",
 			"SpecName":"Trust in Law",
 			"UpgradeID":"4041"
+		}
+	],
+	"64":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":110,
+			"RequiredUpgradeID":"0",
+			"SpecName":"As Quick As Me",
+			"UpgradeID":"4176"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Chip Away",
+			"UpgradeID":"4178"
 		}
 	],
 	"65":[
@@ -658,14 +761,50 @@
 			"UpgradeID":"4492"
 		}
 	],
+	"70":[
+		{
+			"Choice":1,
+			"Choices":4,
+			"RequiredLvl":225,
+			"RequiredUpgradeID":0,
+			"SpecName":"Stay on Target",
+			"UpgradeID":"4497"
+		},
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":315,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Smells Like a Trap",
+			"UpgradeID":"4501"
+		}
+	],
+	"71":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":80,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Keep Your Friends Close",
+			"UpgradeID":"4568"
+		},
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":220,
+			"RequiredUpgradeID":0,
+			"SpecName":"Minor Eruption",
+			"UpgradeID":"4572"
+		}
+	],
 	"72":[
 		{
 			"Choice":1,
 			"Choices":3,
 			"RequiredLvl":370,
-			"RequiredUpgradeID":"0",
+			"RequiredUpgradeID":0,
 			"SpecName":"Dichromancy",
-			"UpgradeID":"4698"
+			"UpgradeID":"8731"
 		}
 	],
 	"73":[
@@ -691,11 +830,11 @@
 	"75":[
 		{
 			"Choice":1,
-			"Choices":2,
+			"Choices":3,
 			"RequiredLvl":240,
-			"RequiredUpgradeID":"0",
+			"RequiredUpgradeID":0,
 			"SpecName":"Did We Say Humans? We Meant...",
-			"UpgradeID":"4833"
+			"UpgradeID":"10653"
 		}
 	],
 	"76":[
@@ -754,6 +893,16 @@
 			"UpgradeID":"5652"
 		}
 	],
+	"80":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":350,
+			"RequiredUpgradeID":0,
+			"SpecName":"Cheer Up Pops",
+			"UpgradeID":"5640"
+		}
+	],
 	"81":[
 		{
 			"Choice":1,
@@ -780,6 +929,16 @@
 			"RequiredUpgradeID":"0",
 			"SpecName":"Explosive Rally",
 			"UpgradeID":"5985"
+		}
+	],
+	"83":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":160,
+			"RequiredUpgradeID":0,
+			"SpecName":"For The Fans",
+			"UpgradeID":"5995"
 		}
 	],
 	"84":[
@@ -882,6 +1041,26 @@
 			"UpgradeID":"6219"
 		}
 	],
+	"90":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":"0",
+			"SpecName":"\"Back\"-Up Singer",
+			"UpgradeID":"6355"
+		}
+	],
+	"91":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":310,
+			"RequiredUpgradeID":0,
+			"SpecName":"Strong and Steady",
+			"UpgradeID":"6909"
+		}
+	],
 	"92":[
 		{
 			"Choice":1,
@@ -899,7 +1078,7 @@
 			"RequiredLvl":80,
 			"RequiredUpgradeID":"0",
 			"SpecName":"Holy Power",
-			"UpgradeID":"6999"
+			"UpgradeID":"9784"
 		}
 	],
 	"94":[
@@ -1000,6 +1179,16 @@
 			"UpgradeID":"8013"
 		}
 	],
+	"103":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":300,
+			"RequiredUpgradeID":0,
+			"SpecName":"All Hail the God Brain",
+			"UpgradeID":"8149"
+		}
+	],
 	"104":[
 		{
 			"Choice":1,
@@ -1046,8 +1235,164 @@
 			"UpgradeID":"7526"
 		}
 	],
+	"108":{
+		
+	},
+	"109":{
+		
+	},
+	"110":{
+		
+	},
+	"111":{
+		
+	},
+	"112":{
+		
+	},
+	"113":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":200,
+			"RequiredUpgradeID":0,
+			"SpecName":"Atonement Begins with an Apology",
+			"UpgradeID":"8877"
+		},
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":300,
+			"RequiredUpgradeID":0,
+			"SpecName":"Smoky Bombs",
+			"UpgradeID":"8879"
+		}
+	],
+	"114":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Robust Rivals",
+			"UpgradeID":"9355"
+		}
+	],
+	"115":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":0,
+			"SpecName":"Mood: Relaxed",
+			"UpgradeID":"9607"
+		}
+	],
+	"116":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":250,
+			"RequiredUpgradeID":0,
+			"SpecName":"Chaos Reigns",
+			"UpgradeID":"9619"
+		}
+	],
+	"117":[
+		{
+			"Choice":1,
+			"Choices":4,
+			"RequiredLvl":40,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Beast Slaying Arrows",
+			"UpgradeID":"9643"
+		}
+	],
+	"118":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":140,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Shadows of the Underdark",
+			"UpgradeID":"9761"
+		}
+	],
+	"119":[
+		{
+			"Choice":1,
+			"Choices":2,
+			"RequiredLvl":150,
+			"RequiredUpgradeID":0,
+			"SpecName":"Book of Exalted Deeds",
+			"UpgradeID":"9773"
+		}
+	],
+	"120":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":280,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Unwavering",
+			"UpgradeID":"10615"
+		}
+	],
+	"121":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":80,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Methodical",
+			"UpgradeID":"10670"
+		}
+	],
+	"122":[
+		{
+			"Choice":1,
+			"Choices":3,
+			"RequiredLvl":25,
+			"RequiredUpgradeID":"0",
+			"SpecName":"Bard College",
+			"UpgradeID":"10798"
+		}
+	],
+	"123":{
+		
+	},
+	"124":{
+		
+	},
+	"125":{
+		
+	},
+	"126":{
+		
+	},
+	"127":{
+		
+	},
+	"128":{
+		
+	},
+	"129":{
+		
+	},
+	"130":{
+		
+	},
+	"131":{
+		
+	},
+	"132":{
+		
+	},
+	"133":{
+		
+	},
 	"LoadTime":{
 		
 	},
-	"TimeStamp":"August 31, 2022, 15:22:13"
+	"TimeStamp":"March 28, 2023, 16:17:49"
 }

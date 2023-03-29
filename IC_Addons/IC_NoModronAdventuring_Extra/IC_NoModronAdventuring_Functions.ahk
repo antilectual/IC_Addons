@@ -2,94 +2,43 @@ class IC_NMA_Functions
 {
     endScript := false
 
-    ;requires single param == simple array of champ IDs. returns an array of obj where obj key == champ ID and obj has fields maxLvl == max level and fKey := Fkey string.
-    GetMaxLvlArray(arrayIn)
+    DirectedInputNoCritical(hold := 1, release := 1, s* )
     {
-        arrayOut := {}
-        g_SF.Memory.OpenProcessReader()
-        for k, v in arrayIn
+        timeout := 33
+        directedInputStart := A_TickCount
+        hwnd := g_SF.Hwnd
+        ControlFocus,, ahk_id %hwnd%
+        values := s
+        if(IsObject(values))
         {
-            if !IsObject(arrayOut[v])
+            if(hold)
             {
-                arrayOut[v] := {}
-                arrayOut[v].fKey := "{F" . g_SF.Memory.ReadChampSeatByID(v) . "}"
-            }
-            upgradeCount := g_SF.Memory.GenericGetValue(g_SF.Memory.GameManager.Game.gameInstances.Controller.UserData.HeroHandler.heroes.allUpgradesOrdered.size.GetGameObjectFromListValues(0, v - 1))
-            upgIndex := 0
-            ;iterate through every upgrade for that hero
-            loop %upgradeCount%
-            {
-                orderedUpgradesObject := g_SF.Memory.GetHeroOrderedUpgrade(v-1, upgIndex)
-                requiredLvl := g_SF.Memory.GenericGetValue(orderedUpgradesObject.requiredLvl.GetGameObjectFromListValues(0))
-                ;some upgrades with required level of 9999
-                if (requiredLvl < 9999)
-                    arrayOut[v].maxLvl := Max(requiredLvl, arrayOut[v].maxLvl)
-                ++upgIndex
-            }
-        }
-        return arrayOut
-    }
-
-    ;requires single param == array returned from GetMaxLvlArray(). returns inputs == array of Fkey strings of champs not at max lvl.
-    GetFkeys(maxLvlArray)
-    {
-        inputs := {}
-        for k, v in maxLvlArray
-        {
-            if (g_SF.Memory.ReadChampLvlByID(k) < v.maxLvl)
-                inputs.Push(v.Fkey)
-        }
-        return inputs
-    }
-
-    BuildSpecSettingsGUI(defines, settings)
-    {
-        static 
-        isBuilt := false
-        if !isBuilt
-        {
-            Gui, SpecSettingsGUI:New
-            Gui, SpecSettingsGUI:+Resize -MaximizeBox
-            Gui, SpecSettingsGUI:Font, q5
-            Gui, SpecSettingsGUI:Add, Button, x554 y25 w60 gNMA_SaveClicked, Save
-            Gui, SpecSettingsGUI:Add, Button, x554 y+25 w60 gNMA_CloseClicked, Close
-            Gui, SpecSettingsGUI:Add, Tab3, x5 y5 w539, Seat 1|Seat 2|Seat 3|Seat 4|Seat 5|Seat 6|Seat 7|Seat 8|Seat 9|Seat 10|Seat 11|Seat 12|
-            seat := 1
-            loop, 12
-            {
-                Gui, Tab, Seat %seat%
-                Gui, SpecSettingsGUI:Font, w700 s11
-                Gui, SpecSettingsGUI:Add, Text, x15 y35, Seat %Seat% Champions:
-                Gui, SpecSettingsGUI:Font, w400 s9
-                for champID, define in defines
+                for k, v in values
                 {
-                    if (define.Seat == seat)
-                    {
-                        name := define.HeroName
-                        Gui, SpecSettingsGUI:Font, w700
-                        Gui, SpecSettingsGUI:Add, Text, x15 y+10, Name: %name%    `ID: %champID%
-                        Gui, SpecSettingsGUI:Font, w400
-                        prevUpg := 0
-                        for key, set in define.SpecDefines.setList
-                        {
-                            reqLvl := set.reqLvl
-                            ddlString := define.SpecDefines.DDL[reqLvl, prevUpg]
-                            choice := 0
-                            for k, v in settings[champID]
-                            {
-                                if (v.requiredLvl == reqLvl)
-                                    choice := v.Choice
-                            }
-                            if !choice
-                                choice := 1
-                            ;var := "Champ" . champID . "Spec" . reqLvl . "Drop"
-                            ;static %var%
-                            Gui, SpecSettingsGUI:Add, DropDownList, x15 y+5 vChamp%champID%Spec%reqLvl%Drop Choose%choice% AltSubmit gNMA_ChangedDDL, %ddlString%
-                            prevUpg := define.SpecDefines.SpecDefinesList[set.reqLvl, prevUpg][choice].UpgradeID
-                        }
-                    }
+                    g_InputsSent++
+                    key := g_KeyMap[v]
+                    SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,%timeout%
                 }
             }
+            if(release)
+            {
+                for k, v in values
+                {
+                    key := g_KeyMap[v]
+                    SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,%timeout%
+                }
+            }
+        }
+        else
+        {
+            key := g_KeyMap[values]
+            if(hold)
+            {
+                g_InputsSent++
+                SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,%timeout%
+            }
+            if(release)
+                SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,%timeout%
         }
     }
 
@@ -99,48 +48,51 @@ class IC_NMA_Functions
         defines := {}
         g_SF.Memory.OpenProcessReader()
         ;iterate through every hero in memory
-        heroCount := g_SF.Memory.GenericGetValue(g_SF.Memory.GameManager.Game.gameInstances.Controller.UserData.HeroHandler.heroes.size.GetGameObjectFromListValues(0))
+        heroCount := g_SF.Memory.ReadChampListSize() ;heroCount := g_SF.Memory.GameManager.Game.gameInstances[0].Controller.UserData.HeroHandler.heroes.size.Read()
         if (heroCount < 100)
             msgbox, "There may have been an error loading data. Reloading the script may fix the error. Error: Unexpected heroCount"
         champID := 0
+        upgStartTimer := champStartTimer := startTimer := A_TickCount
+        foundSpec := {}
         loop %heroCount%
         {
             ++champID
             ;only include owned heroes
-            isOwned := g_SF.Memory.GenericGetValue(g_SF.Memory.GameManager.Game.gameInstances.Controller.UserData.HeroHandler.heroes.Owned.GetGameObjectFromListValues(0, champID - 1))
-            if !isOwned
+            isOwned := g_SF.Memory.ReadHeroIsOwned() ;GameManager.Game.gameInstances[0].Controller.UserData.HeroHandler.heroes[champID -1].Owned.Read()
+            if (!isOwned OR champID == 107)
                 Continue
             name := g_SF.Memory.ReadChampNameByID(champID)
             seat := g_SF.Memory.ReadChampSeatByID(champID)
             defines[champID] := new IC_NMA_Functions.HeroDefine(champID, name, seat)
-            upgradesObject := g_SF.Memory.GameManager.Game.gameInstances.Controller.UserData.HeroHandler.heroes.allUpgradesOrdered.List.GetFullGameObjectFromListOrDictValues("List", 0, champID - 1)
-            upgradesObject := upgradesObject.GetFullGameObjectFromListOrDictValues("Dict", 0)
-            upgradesObject.ValueType := "List"
-            upgradeCount := g_SF.Memory.GenericGetValue(upgradesObject.size)
+            upgradeCount := g_SF.Memory.ReadHeroUpgradesSize(champID)
             upgIndex := 0
             ;iterate through every upgrade for that hero
             loop %upgradeCount%
             {
-                orderedUpgrade := g_SF.Memory.GetHeroOrderedUpgrade(champID-1, upgIndex)
-                requiredLvl := g_SF.Memory.GenericGetValue(orderedUpgrade.RequiredLevel)
+                requiredLvl := g_SF.Memory.ReadHeroUpgradeRequiredLevel(champID, upgIndex)
                 ;some upgrades with required level of 9999
                 if (requiredLvl < 9999)
                     defines[champID].MaxLvl := Max(requiredLvl, defines[champID].MaxLvl)
-                ;look to see if upgrade define has spec graphic id, easiest way to know it is a spec upgrade and appears to work 100% so far.
-                ;trying to use upgrade type field was just wrong in a lot of cases. the type spec was commonly overrided by stuff like upgrade ability type.
-                isSpec := g_SF.Memory.GenericGetValue(orderedUpgrade.defaultSpecGraphic)
+                isSpec := g_SF.Memory.ReadHeroUpgradeIsSpec(champID, upgIndex)
                 if isSpec
                 {
-                    upgradeID := g_SF.Memory.GenericGetValue(orderedUpgrade.ID)
-                    requiredUpgradeID := g_SF.Memory.GenericGetValue(orderedUpgrade.RequiredUpgradeID)
-                    specName := g_SF.Memory.GenericGetValue(orderedUpgrade.SpecializationName)
+                    upgradeID := g_SF.Memory.ReadHeroUpgradeID(champID, upgIndex)
+                    requiredUpgradeID := g_SF.Memory.ReadHeroUpgradeRequiredUpgradeID(champID, upgIndex)
+                    specName := g_SF.Memory.ReadHeroUpgradeSpecializationName(champID, upgIndex)
                     defines[champID].SpecDefines.AddSpec(upgradeID, requiredLvl, requiredUpgradeID, specName)
+                    foundSpec[champID] := True
                 }
                 ++upgIndex
+                ; OutputDebug, % "upgIndex " upgIndex . ": " . (A_TickCount - upgStartTimer) / 1000 . "s"
+                ; upgStartTimer := A_TickCount
             }
+            OutputDebug, % "Champ " champID . ": " . (A_TickCount - champStartTimer) / 1000 . "s"
+            if(!foundSpec[champID])
+                OutputDebug, % name . " (" . champID . ") failed to find a specialization."
+            champStartTimer := A_TickCount
             defines[champID].SpecDefines.SortSpecList()
         }
-        ;defines.Loaded := 1
+        OutputDebug, % "TotalTime: " . (A_TickCount - startTimer) / 1000 . "s"
         defines.TimeStamp := A_MMMM . " " . A_DD . ", " . A_YYYY . " at " . A_Hour . ":" . A_Min . ":" . A_Sec
         defines.LoadTime := A_TickCount - start
         ;a bit easier to debug from json file
@@ -323,9 +275,12 @@ class IC_NMA_Functions
         inputKey := "{F" . seat . "}"
         if !targetLvl
             targetLvl := maxLvlData[champID]
-        while (targetLvl > g_SF.Memory.ReadChampLvlByID(champID) AND !(this.endScript))
+        while (targetLvl > (currChampLevel := g_SF.Memory.ReadChampLvlByID(champID)) AND !(this.endScript))
         {
-            g_SF.DirectedInput(,, inputKey)
+            if(currChampLevel == lastChampLevel) ; leveling failed, wait for next call
+                break
+            lastChampLevel := currChampLevel
+            this.DirectedInputNoCritical(,, inputKey)
             for k, v in specSettings[champID]
             {
                 if (v.RequiredLvl == g_SF.Memory.ReadChampLvlByID(champID))
@@ -349,6 +304,18 @@ class IC_NMA_Functions
     {
         static lastUpgrade := 0
         static clickCount := 0
+        if (clicCount > 10)
+        {
+            msgbox, 4,, The script has failed specializing in %clicCount% consecutive attempts. Continue?
+            IfMsgBox No
+               global g_NMADoAdventuring := True
+        }
+        isPurchased := g_SF.Memory.ReadHeroUpgradeIsPurchased(champID, specSettings[champID][1]["UpgradeID"])
+        if (isPurchased)
+        {
+            clickCount := 0
+            return
+        }
         for k, v in specSettings[champID]
         {
             if (v.RequiredLvl == champLvl)
@@ -368,52 +335,12 @@ class IC_NMA_Functions
         xClick := xFirstButton + 35 + (250 * (Choice - 1))
         StartTime := A_TickCount
         ElapsedTime := 0
-        loop, 1
-        {
-            WinActivate, ahk_exe IdleDragons.exe
-            MouseClick, Left, xClick, yClick, 1
-            Sleep, 10
-        }
-        if (lastUpgrade == upgradeID)
-            ++clickCount
-        else
-        {
-            lastUpgrade := upgradeID
-            clickCount := 0
-        }
-        if (clickCount > 5)
-        {
-            msgbox, 4,, The script has failed specializing in %clicCount% consecutive attempts. Continue?
-            IfMsgBox No
-                this.endScript := true
-        }
+        WinActivate, ahk_exe IdleDragons.exe
+        MouseClick, Left, xClick, yClick, 1
+        clickCount++
+        Sleep, 10
         return
     }
-
-    ;favorite: 1 = save slot 1 (Q), 2 = save slot 2 (W), 3 = save slot 3 (E)
-    LevelAndSpecFavoriteFormation(favorite, maxLvlData, specSettings)
-    {
-        this.endScript := false
-        if (favorite == 1)
-            inputKey := "q"
-        else if (favorite == 2)
-            inputKey := "w"
-        else if (favorite == 3)
-            inputKey := "e"
-        loop 3
-            g_SF.DirectedInput(,, inputKey)
-        champArray := g_SF.Memory.GetFormationByFavorite(favorite)
-        for k, v in champArray
-        {
-            if (v == -1)
-                continue
-            g_SF.DirectedInput(,, inputKey)
-            this.LevelAndSpec(v, 0, maxLvlData, specSettings)
-            if this.endScript
-                return
-        }
-    }
-
         
     NMA_CheckForReset()
     {
@@ -444,15 +371,15 @@ class IC_NMA_Functions
 
     NMA_LevelAndSpec(formationID, champID)
     {
-        if(g_NMAChampsToLevel[champID]) ; when set to true, champions is done leveling
+        if (g_NMAChampsToLevel[champID]) ; when set to true, champions is done leveling
             return
         champLvl := g_SF.Memory.ReadChampLvlByID(champID)
         seat := g_SF.Memory.ReadChampSeatByID(champID)
         inputKey := "{F" . seat . "}"
-        g_SF.DirectedInput(,, inputKey, formationKey[formationID])
+        this.DirectedInputNoCritical(,, inputKey, formationKey[formationID])
         sleep, 33
         global g_NMAlvlObj
-        if g_NMAlvlObj.IsSpec(champID, champLvl, g_NMASpecSettings)
+        if (g_NMAlvlObj.IsSpec(champID, champLvl, g_NMASpecSettings))
             g_NMAlvlObj.PickSpec(champID, champLvl, g_NMASpecSettings)
         if (!(g_NMAMaxLvl[champID] > champLvl))
             g_NMAChampsToLevel[champID] := True
@@ -466,7 +393,7 @@ class IC_NMA_Functions
             if(k AND k != -1 AND NMA_FireUlts)
             {
                 ultButton := g_SF.GetUltimateButtonByChampID(k)
-                g_SF.DirectedInput(,, ultButton)
+                this.DirectedInputNoCritical(,, ultButton)
             }   
         }
     }
