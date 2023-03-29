@@ -23,10 +23,12 @@ if !IsObject(g_NMAMaxLvl)
 
 Gui, ICScriptHub:Tab, No Modron Adventuring
 Gui, ICScriptHub:Font, w700
-Gui, ICScriptHub:Add, Text, x15 y80, BETA No Modron Adventure
+Gui, ICScriptHub:Add, Text, x15 y80, BETA - No Modron Adventuring
 Gui, ICScriptHub:Add, Text, x15 y+2, No Modron Leveling, Specing, Ulting, and Resetting
 Gui, ICScriptHub:Font, w400
 Gui, ICScriptHub:Add, Text, x15 y+5, NOTE: This add on will take control of the mouse to select specializations.
+Gui, ICScriptHub:Add, Text, x15 y+10, NOTE: This add on will close the game to restart an adventure.
+Gui, ICScriptHub:Add, Text, x15 y+10, NOTE: This add on does save all settings on script restart.
 Gui, ICScriptHub:Add, Text, x15 y+10, Specialization Settings Status: 
 Gui, ICScriptHub:Add, Text, x+5 vNMA_Settings w300, % g_NMASpecSettings.TimeStamp ? "Loaded and dated " . g_NMASpecSettings.TimeStamp : "Not Loaded"
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_SpecSettings, Select/Create Spec. Settings
@@ -71,58 +73,34 @@ NMA_RunAdventuring()
     g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
     while (g_NMADoAdventuring)
     {
-        isLevelingDone := False
-        isReset := False
-        while (!isLevelingDone AND !isReset AND g_NMADoAdventuring)
-        {
-            g_NMAlvlObj.DirectedInputNoCritical(,, formationKey[favoriteFormation])
-            for k, v in g_NMAChampsToLevel
-            { 
-                Sleep, 20
-                if (k == -1 OR !k)
-                    continue
-                name := g_SF.Memory.ReadChampNameByID(k)
-                g_NMAlvlObj.NMA_LevelAndSpec(favoriteFormation, k)
-            }
-            if (NMA_LevelClick)
-                g_NMAlvlObj.DirectedInputNoCritical(,, "{ClickDmg}")
-            if (!Mod( g_SF.Memory.ReadCurrentZone(), 5 ) AND Mod( g_SF.Memory.ReadHighestZone(), 5 ) AND !g_SF.Memory.ReadTransitioning())
-                g_SF.ToggleAutoProgress( 1, true ) ; Toggle autoprogress to skip boss bag
-            g_SF.ToggleAutoProgress(1,false)
-            if(NMA_FireUlts)
-                g_NMAlvlObj.NMA_UseUltimates(favoriteFormation)
-            isReset := g_NMAlvlObj.NMA_CheckForReset()
-            if(isReset)
-            {
-                g_SF.SafetyCheck()
-                g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
-                break
-            }
-            isLevelingDone := g_NMAlvlObj.NMA_CheckForLevelingDone()
-            g_SF.SafetyCheck()
-            Sleep, 100
+        g_NMAlvlObj.DirectedInputNoCritical(,, formationKey[favoriteFormation])
+        for k, v in g_NMAChampsToLevel
+        { 
+            Sleep, 20
+            if (k == -1 OR !k)
+                continue
+            name := g_SF.Memory.ReadChampNameByID(k)
+            g_NMAlvlObj.NMA_LevelAndSpec(favoriteFormation, k)
         }
-        while (!isReset AND g_NMADoAdventuring)
+        if (NMA_LevelClick)
+            g_NMAlvlObj.DirectedInputNoCritical(,, "{ClickDmg}")
+        if (!Mod( g_SF.Memory.ReadCurrentZone(), 5 ) AND Mod( g_SF.Memory.ReadHighestZone(), 5 ) AND !g_SF.Memory.ReadTransitioning())
+            g_SF.ToggleAutoProgress( 1, true ) ; Toggle autoprogress to skip boss bag
+        g_SF.ToggleAutoProgress(1,false)
+        if(NMA_FireUlts)
+            g_NMAlvlObj.NMA_UseUltimates(favoriteFormation)
+        isReset := g_NMAlvlObj.NMA_CheckForReset()
+        if(isReset)
         {
-            isReset := g_NMAlvlObj.NMA_CheckForReset()
             g_SF.SafetyCheck()
+            g_SF.Memory.OpenProcessReader()
             g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
-            if (NMA_LevelClick)
-                g_NMAlvlObj.DirectedInputNoCritical(,, "{ClickDmg}")
-            g_SF.ToggleAutoProgress(0)
-            g_SF.ToggleAutoProgress(1)
-            if(NMA_FireUlts)
-                g_NMAlvlObj.NMA_UseUltimates(favoriteFormation)
-            Sleep, 100
+            isReset := False
         }
-        g_SF.SafetyCheck()
-        g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
-        if !(g_NMADoAdventuring)
-        {
-            msgbox, Adventuring Stopped.
-            return
-        }
+        Sleep, 100
     }
+    MsgBox, Adventuring Stopped.
+    return
 }
 
 NMA_SpecSettings()
@@ -260,7 +238,7 @@ NMA_UpdateDDL()
 ;$SC045::
 ;Pause
 
-Hotkey, SC045, NMA_Pause
+Hotkey, SC045, NMA_Pause ;numlock to pause
 
 NMA_Pause()
 {

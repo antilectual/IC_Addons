@@ -378,7 +378,7 @@ class IC_NMA_Functions
         champLvl := g_SF.Memory.ReadChampLvlByID(champID)
         seat := g_SF.Memory.ReadChampSeatByID(champID)
         inputKey := "{F" . seat . "}"
-        this.DirectedInputNoCritical(,, inputKey, formationKey[formationID])
+        this.DirectedInputNoCritical(,, inputKey)
         sleep, 33
         global g_NMAlvlObj
         if (g_NMAlvlObj.IsSpec(champID, champLvl, g_NMASpecSettings))
@@ -400,6 +400,7 @@ class IC_NMA_Functions
         }
     }
 
+    ; Unused test for if champions are finished leveling.
     NMA_CheckForLevelingDone()
     {
         for k,v in g_NMAChampsToLevel
