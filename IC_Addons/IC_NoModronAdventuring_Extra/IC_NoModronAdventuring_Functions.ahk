@@ -346,6 +346,7 @@ class IC_NMA_Functions
     {
         if(g_SF.Memory.ReadCurrentZone() > g_NMAResetZone)
         {
+            g_SF.ResetServerCall()
             g_SF.CurrentAdventure := g_SF.Memory.ReadCurrentObjID()
             g_SF.RestartAdventure("Adventure Complete")
             return True
