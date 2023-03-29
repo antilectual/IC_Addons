@@ -22,6 +22,7 @@ if !IsObject(g_NMAMaxLvl)
 }
 
 Gui, ICScriptHub:Tab, No Modron Adventuring
+GUIFunctions.UseThemeTextColor()
 Gui, ICScriptHub:Font, w700
 Gui, ICScriptHub:Add, Text, x15 y80, BETA - No Modron Adventuring
 Gui, ICScriptHub:Add, Text, x15 y+2, No Modron Leveling, Specing, Ulting, and Resetting
@@ -36,7 +37,9 @@ Gui, ICScriptHub:Add, Text, x15 y+10, Max. Level Data Status:
 Gui, ICScriptHub:Add, Text, x+5 vNMA_MaxLvl w300, % g_NMAMaxLvl.TimeStamp ? "Loaded and dated " . g_NMAMaxLvl.TimeStamp : "Not Loaded"
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_BuildMaxLvlData, Load Max. Level Data
 Gui, ICScriptHub:Add, Text, x15 y+15, Choose area to restart the adventure at:
+GUIFunctions.UseThemeTextColor("InputBoxTextColor")
 Gui, ICScriptHub:Add, Edit, vNMA_RestartZone x15 y+10 w50, % g_NMAResetZone
+GUIFunctions.UseThemeTextColor()
 Gui, ICScriptHub:Add, Checkbox, vNMA_CB1 x15 y+5 Checked Hidden, "Q"
 Gui, ICScriptHub:Add, Checkbox, x15 y+5 vNMA_LevelClick , Upgrade Click Damage
 Gui, ICScriptHub:Add, Checkbox, x15 y+5 vNMA_FireUlts , Fire Ultimates
@@ -109,6 +112,7 @@ NMA_SpecSettings()
     g_NMAHeroDefines := IC_NMA_Functions.GetHeroDefines()
     NMA_BuildSpecSettingsGUI()
     Gui, SpecSettingsGUI:Show
+    GUIFunctions.UseThemeTitleBar("SpecSettingsGUI")
     GuiControl, ICScriptHub:, NMA_Settings, % g_NMASpecSettings.TimeStamp ? "Loaded and dated " . g_NMASpecSettings.TimeStamp : "Not Loaded"
 }
 
@@ -132,6 +136,9 @@ NMA_BuildSpecSettingsGUI()
     global
     Gui, SpecSettingsGUI:New
     Gui, SpecSettingsGUI:+Resize -MaximizeBox
+    GUIFunctions.LoadTheme("SpecSettingsGUI")
+    GUIFunctions.UseThemeBackgroundColor()
+    GUIFunctions.UseThemeTextColor()
     Gui, SpecSettingsGUI:Font, q5
     Gui, SpecSettingsGUI:Add, Button, x554 y25 w60 gNMA_SaveClicked, Save
     Gui, SpecSettingsGUI:Add, Button, x554 y+25 w60 gNMA_CloseClicked, Close
