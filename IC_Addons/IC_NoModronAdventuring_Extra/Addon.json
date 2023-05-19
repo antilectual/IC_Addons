@@ -1,6 +1,6 @@
 {
 	"Name":"No Modron Adventuring",
-	"Version": "v0.0.2",
+	"Version": "v0.0.3",
     "Includes" : "IC_NoModronAdventuring_Component.ahk",
     "Author" : "mikebaldi1980 & Antilectual",
     "Url" : "https://github.com/antilectual/IC_Addons/tree/main/IC_Addons/IC_NoModronAdventuring_Extra",
