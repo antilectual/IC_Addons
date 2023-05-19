@@ -335,7 +335,8 @@ class IC_NMA_Functions
         xClick := xFirstButton + 35 + (250 * (Choice - 1))
         StartTime := A_TickCount
         ElapsedTime := 0
-        WinActivate, ahk_exe IdleDragons.exe
+        gameExe := g_UserSettings[ "ExeName" ]
+        WinActivate, ahk_exe %gameExe%
         MouseClick, Left, xClick, yClick, 1
         clickCount++
         Sleep, 10
