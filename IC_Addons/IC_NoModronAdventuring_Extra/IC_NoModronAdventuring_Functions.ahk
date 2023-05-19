@@ -304,9 +304,9 @@ class IC_NMA_Functions
     {
         static lastUpgrade := 0
         static clickCount := 0
-        if (clicCount > 10)
+        if (clickCount > 10)
         {
-            msgbox, 4,, The script has failed specializing in %clicCount% consecutive attempts. Continue?
+            msgbox, 4,, The script has failed specializing in %clickCount% consecutive attempts. Continue?
             IfMsgBox No
                global g_NMADoAdventuring := True
         }
