@@ -3,7 +3,7 @@
 		"HeroID":1,
 		"HeroName":"Bruenor",
 		"MaxLvl":3320,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -22,15 +22,15 @@
 				[
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Shield Master",
-						"UpgradeID":"6"
+						"UpgradeID":6
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Battle Master",
-						"UpgradeID":"7"
+						"UpgradeID":7
 					}
 				]
 			],
@@ -41,7 +41,7 @@
 		"HeroID":2,
 		"HeroName":"Celeste",
 		"MaxLvl":2015,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -62,13 +62,13 @@
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"War Domain",
-						"UpgradeID":"29"
+						"UpgradeID":29
 					},
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Life Domain",
-						"UpgradeID":"30"
+						"UpgradeID":30
 					}
 				]
 			],
@@ -79,7 +79,7 @@
 		"HeroID":3,
 		"HeroName":"Nayeli",
 		"MaxLvl":1360,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -100,13 +100,13 @@
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Oath of Vengeance",
-						"UpgradeID":"43"
+						"UpgradeID":43
 					},
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Oath of Devotion",
-						"UpgradeID":"44"
+						"UpgradeID":44
 					}
 				]
 			],
@@ -117,7 +117,7 @@
 		"HeroID":4,
 		"HeroName":"Jarlaxle",
 		"MaxLvl":2150,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -136,15 +136,15 @@
 				[
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Secret Lord of Luskan",
-						"UpgradeID":"58"
+						"UpgradeID":58
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Leader of the Bregan D'aerthe",
-						"UpgradeID":"59"
+						"UpgradeID":59
 					}
 				]
 			],
@@ -155,7 +155,7 @@
 		"HeroID":5,
 		"HeroName":"Calliope",
 		"MaxLvl":2360,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -174,15 +174,15 @@
 				[
 					{
 						"RequiredLvl":80,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"College of Valor",
-						"UpgradeID":"75"
+						"UpgradeID":75
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"College of Lore",
-						"UpgradeID":"76"
+						"UpgradeID":76
 					}
 				]
 			],
@@ -193,7 +193,7 @@
 		"HeroID":6,
 		"HeroName":"Asharra",
 		"MaxLvl":1070,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -220,41 +220,41 @@
 				[
 					{
 						"RequiredLvl":10,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Bond: Humans",
-						"UpgradeID":"90"
+						"UpgradeID":90
 					},
 					{
 						"RequiredLvl":10,
 						"RequiredUpgradeID":0,
 						"SpecName":"Bond: Dwarves and Elves",
-						"UpgradeID":"91"
+						"UpgradeID":91
 					},
 					{
 						"RequiredLvl":10,
 						"RequiredUpgradeID":0,
 						"SpecName":"Bond: Potpourri",
-						"UpgradeID":"92"
+						"UpgradeID":92
 					}
 				],
 				[
 					{
 						"RequiredLvl":325,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Bond: Half n' Half",
-						"UpgradeID":"975"
+						"UpgradeID":975
 					},
 					{
 						"RequiredLvl":325,
 						"RequiredUpgradeID":0,
 						"SpecName":"Bond: Exotic Races",
-						"UpgradeID":"976"
+						"UpgradeID":976
 					},
 					{
 						"RequiredLvl":325,
 						"RequiredUpgradeID":0,
 						"SpecName":"Bond: Short-folk",
-						"UpgradeID":"977"
+						"UpgradeID":977
 					}
 				]
 			],
@@ -265,7 +265,7 @@
 		"HeroID":7,
 		"HeroName":"Minsc",
 		"MaxLvl":1530,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -284,33 +284,33 @@
 				[
 					{
 						"RequiredLvl":50,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Favored Enemy: Humanoids",
-						"UpgradeID":"108"
+						"UpgradeID":108
 					},
 					{
 						"RequiredLvl":50,
 						"RequiredUpgradeID":0,
 						"SpecName":"Favored Enemy: Beasts",
-						"UpgradeID":"109"
+						"UpgradeID":109
 					},
 					{
 						"RequiredLvl":50,
 						"RequiredUpgradeID":0,
 						"SpecName":"Favored Enemy: Undead",
-						"UpgradeID":"110"
+						"UpgradeID":110
 					},
 					{
 						"RequiredLvl":50,
 						"RequiredUpgradeID":0,
 						"SpecName":"Favored Enemy: Fey",
-						"UpgradeID":"111"
+						"UpgradeID":111
 					},
 					{
 						"RequiredLvl":50,
 						"RequiredUpgradeID":0,
 						"SpecName":"Favored Enemy: Monstrosities",
-						"UpgradeID":"112"
+						"UpgradeID":112
 					}
 				]
 			],
@@ -321,7 +321,7 @@
 		"HeroID":8,
 		"HeroName":"Delina",
 		"MaxLvl":5700,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -340,15 +340,15 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Font of Magic",
-						"UpgradeID":"129"
+						"UpgradeID":129
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Tides of Chaos",
-						"UpgradeID":"130"
+						"UpgradeID":130
 					}
 				]
 			],
@@ -359,7 +359,7 @@
 		"HeroID":9,
 		"HeroName":"Makos",
 		"MaxLvl":450,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -378,15 +378,15 @@
 				[
 					{
 						"RequiredLvl":15,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Dark Luck",
-						"UpgradeID":"139"
+						"UpgradeID":139
 					},
 					{
 						"RequiredLvl":15,
 						"RequiredUpgradeID":0,
 						"SpecName":"Dark Blessing",
-						"UpgradeID":"140"
+						"UpgradeID":140
 					}
 				]
 			],
@@ -397,7 +397,7 @@
 		"HeroID":10,
 		"HeroName":"Tyril",
 		"MaxLvl":3300,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -416,15 +416,15 @@
 				[
 					{
 						"RequiredLvl":45,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Moonbeam",
-						"UpgradeID":"145"
+						"UpgradeID":145
 					},
 					{
 						"RequiredLvl":45,
 						"RequiredUpgradeID":0,
 						"SpecName":"Wild Shape",
-						"UpgradeID":"146"
+						"UpgradeID":146
 					}
 				]
 			],
@@ -435,7 +435,7 @@
 		"HeroID":11,
 		"HeroName":"Jamilah",
 		"MaxLvl":775,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -456,13 +456,13 @@
 						"RequiredLvl":60,
 						"RequiredUpgradeID":0,
 						"SpecName":"Bruiser",
-						"UpgradeID":"239"
+						"UpgradeID":239
 					},
 					{
 						"RequiredLvl":60,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Indomitable Might",
-						"UpgradeID":"240"
+						"UpgradeID":240
 					}
 				]
 			],
@@ -473,7 +473,7 @@
 		"HeroID":12,
 		"HeroName":"Arkhan",
 		"MaxLvl":610,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -492,15 +492,15 @@
 				[
 					{
 						"RequiredLvl":65,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Bulk Up",
-						"UpgradeID":"243"
+						"UpgradeID":243
 					},
 					{
 						"RequiredLvl":65,
 						"RequiredUpgradeID":0,
 						"SpecName":"Usurped Power",
-						"UpgradeID":"244"
+						"UpgradeID":244
 					}
 				]
 			],
@@ -511,7 +511,7 @@
 		"HeroID":13,
 		"HeroName":"Hitch",
 		"MaxLvl":2510,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -530,15 +530,15 @@
 				[
 					{
 						"RequiredLvl":160,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"More Daggers",
-						"UpgradeID":"386"
+						"UpgradeID":386
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Charismatic",
-						"UpgradeID":"391"
+						"UpgradeID":391
 					}
 				]
 			],
@@ -549,7 +549,7 @@
 		"HeroID":14,
 		"HeroName":"Stoki",
 		"MaxLvl":1760,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -568,15 +568,15 @@
 				[
 					{
 						"RequiredLvl":275,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Ki Overflow",
-						"UpgradeID":"428"
+						"UpgradeID":428
 					},
 					{
 						"RequiredLvl":275,
 						"RequiredUpgradeID":0,
 						"SpecName":"Ki Explosion",
-						"UpgradeID":"429"
+						"UpgradeID":429
 					}
 				]
 			],
@@ -587,7 +587,7 @@
 		"HeroID":15,
 		"HeroName":"Krond",
 		"MaxLvl":1930,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -606,21 +606,21 @@
 				[
 					{
 						"RequiredLvl":60,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Cantrip: Thunderclap",
-						"UpgradeID":"445"
+						"UpgradeID":445
 					},
 					{
 						"RequiredLvl":60,
 						"RequiredUpgradeID":0,
 						"SpecName":"Cantrip: Shocking Grasp",
-						"UpgradeID":"446"
+						"UpgradeID":446
 					},
 					{
 						"RequiredLvl":60,
 						"RequiredUpgradeID":0,
 						"SpecName":"Cantrip: Fire Bolt",
-						"UpgradeID":"447"
+						"UpgradeID":447
 					}
 				]
 			],
@@ -631,7 +631,7 @@
 		"HeroID":16,
 		"HeroName":"Gromma",
 		"MaxLvl":1540,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -650,21 +650,21 @@
 				[
 					{
 						"RequiredLvl":130,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Circle of the Mountain",
-						"UpgradeID":"551"
+						"UpgradeID":551
 					},
 					{
 						"RequiredLvl":130,
 						"RequiredUpgradeID":0,
 						"SpecName":"Circle of the Arctic",
-						"UpgradeID":"552"
+						"UpgradeID":552
 					},
 					{
 						"RequiredLvl":130,
 						"RequiredUpgradeID":0,
 						"SpecName":"Circle of the Swamp",
-						"UpgradeID":"553"
+						"UpgradeID":553
 					}
 				]
 			],
@@ -675,7 +675,7 @@
 		"HeroID":17,
 		"HeroName":"Dhadius",
 		"MaxLvl":1890,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -694,15 +694,15 @@
 				[
 					{
 						"RequiredLvl":210,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Empowered Orbs",
-						"UpgradeID":"598"
+						"UpgradeID":598
 					},
 					{
 						"RequiredLvl":210,
 						"RequiredUpgradeID":0,
 						"SpecName":"Empowered Empowerment",
-						"UpgradeID":"599"
+						"UpgradeID":599
 					}
 				]
 			],
@@ -713,9 +713,10 @@
 		"HeroID":18,
 		"HeroName":"Drizzt",
 		"MaxLvl":1040,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
+				"",
 				""
 			],
 			"setList":[
@@ -725,33 +726,54 @@
 						"0":1
 					},
 					"reqLvl":180
+				},
+				{
+					"listCount":1,
+					"listIndex":{
+						"9999":2
+					},
+					"reqLvl":9999
 				}
 			],
-			"setListSize":1,
+			"setListSize":2,
 			"specList":[
 				[
 					{
 						"RequiredLvl":180,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Leader of the Companions",
-						"UpgradeID":"635"
+						"UpgradeID":635
 					},
 					{
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Drow Stalker",
-						"UpgradeID":"636"
+						"UpgradeID":636
+					}
+				],
+				[
+					{
+						"RequiredLvl":9999,
+						"RequiredUpgradeID":9999,
+						"SpecName":"Leader of the Companions",
+						"UpgradeID":11516
+					},
+					{
+						"RequiredLvl":9999,
+						"RequiredUpgradeID":9999,
+						"SpecName":"Drow Stalker",
+						"UpgradeID":11517
 					}
 				]
 			],
-			"specListSize":1
+			"specListSize":2
 		}
 	},
 	"19":{
 		"HeroID":19,
 		"HeroName":"Barrowin",
 		"MaxLvl":1980,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -772,19 +794,19 @@
 						"RequiredLvl":130,
 						"RequiredUpgradeID":0,
 						"SpecName":"Greater Blessing",
-						"UpgradeID":"10689"
+						"UpgradeID":10689
 					},
 					{
 						"RequiredLvl":130,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Booming Voice",
-						"UpgradeID":"10690"
+						"UpgradeID":10690
 					},
 					{
 						"RequiredLvl":130,
 						"RequiredUpgradeID":0,
 						"SpecName":"Hammer of the Law",
-						"UpgradeID":"10691"
+						"UpgradeID":10691
 					}
 				]
 			],
@@ -795,7 +817,7 @@
 		"HeroID":20,
 		"HeroName":"Regis",
 		"MaxLvl":2485,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -822,15 +844,15 @@
 				[
 					{
 						"RequiredLvl":50,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Ruby Encouragement (Ahead)",
-						"UpgradeID":"695"
+						"UpgradeID":695
 					},
 					{
 						"RequiredLvl":50,
 						"RequiredUpgradeID":0,
 						"SpecName":"Ruby Encouragement (Behind)",
-						"UpgradeID":"696"
+						"UpgradeID":696
 					}
 				],
 				[
@@ -838,19 +860,19 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Ruby Weakness (Ranged)",
-						"UpgradeID":"697"
+						"UpgradeID":697
 					},
 					{
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Ruby Weakness (Melee)",
-						"UpgradeID":"698"
+						"UpgradeID":698
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Ruby Weakness (Magic)",
-						"UpgradeID":"699"
+						"UpgradeID":699
 					}
 				]
 			],
@@ -861,7 +883,7 @@
 		"HeroID":21,
 		"HeroName":"Birdsong",
 		"MaxLvl":1360,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -888,21 +910,21 @@
 				[
 					{
 						"RequiredLvl":60,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Theme of Valor",
-						"UpgradeID":"10778"
+						"UpgradeID":10778
 					},
 					{
 						"RequiredLvl":60,
 						"RequiredUpgradeID":0,
 						"SpecName":"Theme of Consideration",
-						"UpgradeID":"10779"
+						"UpgradeID":10779
 					},
 					{
 						"RequiredLvl":60,
 						"RequiredUpgradeID":0,
 						"SpecName":"Theme of Deception",
-						"UpgradeID":"10780"
+						"UpgradeID":10780
 					}
 				],
 				[
@@ -910,19 +932,19 @@
 						"RequiredLvl":130,
 						"RequiredUpgradeID":0,
 						"SpecName":"Unison",
-						"UpgradeID":"10781"
+						"UpgradeID":10781
 					},
 					{
 						"RequiredLvl":130,
 						"RequiredUpgradeID":0,
 						"SpecName":"Soprano",
-						"UpgradeID":"10782"
+						"UpgradeID":10782
 					},
 					{
 						"RequiredLvl":130,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Concertino",
-						"UpgradeID":"10783"
+						"UpgradeID":10783
 					}
 				]
 			],
@@ -933,7 +955,7 @@
 		"HeroID":22,
 		"HeroName":"Zorbu",
 		"MaxLvl":1080,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -956,19 +978,19 @@
 						"RequiredLvl":90,
 						"RequiredUpgradeID":0,
 						"SpecName":"Lead The Pack",
-						"UpgradeID":"860"
+						"UpgradeID":860
 					},
 					{
 						"RequiredLvl":90,
 						"RequiredUpgradeID":0,
 						"SpecName":"Focused Anger",
-						"UpgradeID":"1031"
+						"UpgradeID":1031
 					},
 					{
 						"RequiredLvl":90,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Favored Enemies",
-						"UpgradeID":"9735"
+						"UpgradeID":9735
 					}
 				],
 				[
@@ -976,7 +998,7 @@
 						"RequiredLvl":90,
 						"RequiredUpgradeID":99999,
 						"SpecName":"Favored Enemies",
-						"UpgradeID":"1030"
+						"UpgradeID":1030
 					}
 				]
 			],
@@ -987,7 +1009,7 @@
 		"HeroID":23,
 		"HeroName":"Strix",
 		"MaxLvl":1830,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1006,21 +1028,21 @@
 				[
 					{
 						"RequiredLvl":175,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Anxious Fireballs",
-						"UpgradeID":"3676"
+						"UpgradeID":3676
 					},
 					{
 						"RequiredLvl":175,
 						"RequiredUpgradeID":0,
 						"SpecName":"Echoes Of The Past",
-						"UpgradeID":"3677"
+						"UpgradeID":3677
 					},
 					{
 						"RequiredLvl":175,
 						"RequiredUpgradeID":0,
 						"SpecName":"Smelly Lunch",
-						"UpgradeID":"3678"
+						"UpgradeID":3678
 					}
 				]
 			],
@@ -1031,7 +1053,7 @@
 		"HeroID":24,
 		"HeroName":"Nrakk",
 		"MaxLvl":1610,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1052,13 +1074,13 @@
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Kensei Advantage",
-						"UpgradeID":"898"
+						"UpgradeID":898
 					},
 					{
 						"RequiredLvl":240,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Unerring Accuracy",
-						"UpgradeID":"899"
+						"UpgradeID":899
 					}
 				]
 			],
@@ -1069,7 +1091,7 @@
 		"HeroID":25,
 		"HeroName":"Catti-brie",
 		"MaxLvl":2940,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1088,15 +1110,15 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Follow-Up",
-						"UpgradeID":"1037"
+						"UpgradeID":1037
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"In The Zone",
-						"UpgradeID":"1038"
+						"UpgradeID":1038
 					}
 				]
 			],
@@ -1107,7 +1129,7 @@
 		"HeroID":26,
 		"HeroName":"Evelyn",
 		"MaxLvl":2460,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1128,13 +1150,13 @@
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Fighting Style: Protection",
-						"UpgradeID":"1080"
+						"UpgradeID":1080
 					},
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Compel Duel",
-						"UpgradeID":"1081"
+						"UpgradeID":1081
 					}
 				]
 			],
@@ -1145,7 +1167,7 @@
 		"HeroID":27,
 		"HeroName":"Binwin",
 		"MaxLvl":1030,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1164,15 +1186,15 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"More Minions",
-						"UpgradeID":"1133"
+						"UpgradeID":1133
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Antisocial Dwarfing",
-						"UpgradeID":"1134"
+						"UpgradeID":1134
 					}
 				]
 			],
@@ -1183,7 +1205,7 @@
 		"HeroID":28,
 		"HeroName":"Deekin",
 		"MaxLvl":1850,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1204,19 +1226,19 @@
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"DOOM DOOM DOOM",
-						"UpgradeID":"1152"
+						"UpgradeID":1152
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Epic Tale of Little Kobold",
-						"UpgradeID":"1153"
+						"UpgradeID":1153
 					},
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Boss Wants Speed",
-						"UpgradeID":"3639"
+						"UpgradeID":3639
 					}
 				]
 			],
@@ -1227,7 +1249,7 @@
 		"HeroID":29,
 		"HeroName":"Xander",
 		"MaxLvl":1390,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1248,13 +1270,13 @@
 						"RequiredLvl":175,
 						"RequiredUpgradeID":0,
 						"SpecName":"Trying Extra Hard",
-						"UpgradeID":"1195"
+						"UpgradeID":1195
 					},
 					{
 						"RequiredLvl":175,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Follow Closely",
-						"UpgradeID":"1196"
+						"UpgradeID":1196
 					}
 				]
 			],
@@ -1265,7 +1287,7 @@
 		"HeroID":30,
 		"HeroName":"Azaka",
 		"MaxLvl":2180,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1284,15 +1306,15 @@
 				[
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Resist the Curse",
-						"UpgradeID":"1237"
+						"UpgradeID":1237
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Lycanthrope Forever",
-						"UpgradeID":"1238"
+						"UpgradeID":1238
 					}
 				]
 			],
@@ -1303,7 +1325,7 @@
 		"HeroID":31,
 		"HeroName":"Ishi",
 		"MaxLvl":1490,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1324,19 +1346,19 @@
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Friend to Shorties",
-						"UpgradeID":"1243"
+						"UpgradeID":1243
 					},
 					{
 						"RequiredLvl":240,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Friend to Tall Monsters",
-						"UpgradeID":"1244"
+						"UpgradeID":1244
 					},
 					{
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Friend to Tall Folk",
-						"UpgradeID":"1245"
+						"UpgradeID":1245
 					}
 				]
 			],
@@ -1347,7 +1369,7 @@
 		"HeroID":32,
 		"HeroName":"Wulfgar",
 		"MaxLvl":1430,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1368,13 +1390,13 @@
 						"RequiredLvl":265,
 						"RequiredUpgradeID":0,
 						"SpecName":"Heavy Blows",
-						"UpgradeID":"1511"
+						"UpgradeID":1511
 					},
 					{
 						"RequiredLvl":265,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Flag Bearer",
-						"UpgradeID":"1512"
+						"UpgradeID":1512
 					}
 				]
 			],
@@ -1385,7 +1407,7 @@
 		"HeroID":33,
 		"HeroName":"Farideh",
 		"MaxLvl":1990,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1404,15 +1426,15 @@
 				[
 					{
 						"RequiredLvl":160,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Dark One's Luck",
-						"UpgradeID":"1550"
+						"UpgradeID":1550
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Dark One's Blessing",
-						"UpgradeID":"1551"
+						"UpgradeID":1551
 					}
 				]
 			],
@@ -1423,7 +1445,7 @@
 		"HeroID":34,
 		"HeroName":"Donaar",
 		"MaxLvl":1695,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1444,13 +1466,13 @@
 						"RequiredLvl":205,
 						"RequiredUpgradeID":0,
 						"SpecName":"Ohhhhh Yeaaaaaah!",
-						"UpgradeID":"1594"
+						"UpgradeID":1594
 					},
 					{
 						"RequiredLvl":205,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Everyone Coooooool Out!",
-						"UpgradeID":"1595"
+						"UpgradeID":1595
 					}
 				]
 			],
@@ -1461,7 +1483,7 @@
 		"HeroID":35,
 		"HeroName":"Vlahnya",
 		"MaxLvl":1780,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1482,13 +1504,13 @@
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Spy Network",
-						"UpgradeID":"1658"
+						"UpgradeID":1658
 					},
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Breaking Out Solo",
-						"UpgradeID":"1659"
+						"UpgradeID":1659
 					}
 				]
 			],
@@ -1499,7 +1521,7 @@
 		"HeroID":36,
 		"HeroName":"Warden",
 		"MaxLvl":1990,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1518,15 +1540,15 @@
 				[
 					{
 						"RequiredLvl":140,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Eldritch Smite",
-						"UpgradeID":"1899"
+						"UpgradeID":1899
 					},
 					{
 						"RequiredLvl":140,
 						"RequiredUpgradeID":0,
 						"SpecName":"Cloak of Flies",
-						"UpgradeID":"1900"
+						"UpgradeID":1900
 					}
 				]
 			],
@@ -1537,7 +1559,7 @@
 		"HeroID":37,
 		"HeroName":"Nerys",
 		"MaxLvl":1080,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1556,21 +1578,21 @@
 				[
 					{
 						"RequiredLvl":80,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Kelemvor's Heal",
-						"UpgradeID":"9745"
+						"UpgradeID":9745
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Kelemvor's Will",
-						"UpgradeID":"9746"
+						"UpgradeID":9746
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Kelemvor's Foe",
-						"UpgradeID":"9747"
+						"UpgradeID":9747
 					}
 				]
 			],
@@ -1581,7 +1603,7 @@
 		"HeroID":38,
 		"HeroName":"K'thriss",
 		"MaxLvl":1235,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1602,13 +1624,13 @@
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Efficient Bookkeeping",
-						"UpgradeID":"1983"
+						"UpgradeID":1983
 					},
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Velvet Touch",
-						"UpgradeID":"1984"
+						"UpgradeID":1984
 					}
 				]
 			],
@@ -1619,7 +1641,7 @@
 		"HeroID":39,
 		"HeroName":"Paultin",
 		"MaxLvl":3440,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1640,13 +1662,13 @@
 						"RequiredLvl":280,
 						"RequiredUpgradeID":0,
 						"SpecName":"Luck of the Vistani",
-						"UpgradeID":"2038"
+						"UpgradeID":2038
 					},
 					{
 						"RequiredLvl":280,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Additional Secrets",
-						"UpgradeID":"2039"
+						"UpgradeID":2039
 					}
 				]
 			],
@@ -1657,7 +1679,7 @@
 		"HeroID":40,
 		"HeroName":"Black Viper",
 		"MaxLvl":2370,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1678,13 +1700,13 @@
 						"RequiredLvl":215,
 						"RequiredUpgradeID":0,
 						"SpecName":"Assassinate",
-						"UpgradeID":"2111"
+						"UpgradeID":2111
 					},
 					{
 						"RequiredLvl":215,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Collector",
-						"UpgradeID":"2112"
+						"UpgradeID":2112
 					}
 				]
 			],
@@ -1695,7 +1717,7 @@
 		"HeroID":41,
 		"HeroName":"Rosie",
 		"MaxLvl":1080,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1714,15 +1736,15 @@
 				[
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Matriarch",
-						"UpgradeID":"2154"
+						"UpgradeID":2154
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"From The Shadows",
-						"UpgradeID":"2155"
+						"UpgradeID":2155
 					}
 				]
 			],
@@ -1733,7 +1755,7 @@
 		"HeroID":42,
 		"HeroName":"Aila",
 		"MaxLvl":1930,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1752,15 +1774,15 @@
 				[
 					{
 						"RequiredLvl":225,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Stormcaller",
-						"UpgradeID":"8784"
+						"UpgradeID":8784
 					},
 					{
 						"RequiredLvl":225,
 						"RequiredUpgradeID":0,
 						"SpecName":"Stormbreaker",
-						"UpgradeID":"8785"
+						"UpgradeID":8785
 					}
 				]
 			],
@@ -1771,7 +1793,7 @@
 		"HeroID":43,
 		"HeroName":"Spurt",
 		"MaxLvl":1990,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1792,19 +1814,19 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Kobold Family",
-						"UpgradeID":"10681"
+						"UpgradeID":10681
 					},
 					{
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Centi-pult",
-						"UpgradeID":"10682"
+						"UpgradeID":10682
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Adopted Family",
-						"UpgradeID":"10683"
+						"UpgradeID":10683
 					}
 				]
 			],
@@ -1815,7 +1837,7 @@
 		"HeroID":44,
 		"HeroName":"Qillek",
 		"MaxLvl":2870,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1836,19 +1858,19 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Expanded Blessing",
-						"UpgradeID":"8771"
+						"UpgradeID":8771
 					},
 					{
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Empowered Blessing",
-						"UpgradeID":"8772"
+						"UpgradeID":8772
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Seized Assets",
-						"UpgradeID":"8773"
+						"UpgradeID":8773
 					}
 				]
 			],
@@ -1859,7 +1881,7 @@
 		"HeroID":45,
 		"HeroName":"Korth",
 		"MaxLvl":1375,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1880,13 +1902,13 @@
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Group Tactics",
-						"UpgradeID":"2328"
+						"UpgradeID":2328
 					},
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Rapid Training",
-						"UpgradeID":"2329"
+						"UpgradeID":2329
 					}
 				]
 			],
@@ -1897,7 +1919,7 @@
 		"HeroID":46,
 		"HeroName":"Walnut",
 		"MaxLvl":2210,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -1926,19 +1948,19 @@
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Extended Warranty",
-						"UpgradeID":"2391"
+						"UpgradeID":2391
 					},
 					{
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Sign and Date",
-						"UpgradeID":"2392"
+						"UpgradeID":2392
 					},
 					{
 						"RequiredLvl":180,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Ah, Screw It",
-						"UpgradeID":"2393"
+						"UpgradeID":2393
 					}
 				],
 				[
@@ -1946,13 +1968,13 @@
 						"RequiredLvl":315,
 						"RequiredUpgradeID":0,
 						"SpecName":"Co-Signers",
-						"UpgradeID":"2394"
+						"UpgradeID":2394
 					},
 					{
 						"RequiredLvl":315,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Temporary Alliance",
-						"UpgradeID":"2395"
+						"UpgradeID":2395
 					}
 				]
 			],
@@ -1963,7 +1985,7 @@
 		"HeroID":47,
 		"HeroName":"Shandie",
 		"MaxLvl":1700,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -1982,21 +2004,21 @@
 				[
 					{
 						"RequiredLvl":230,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Known Allies",
-						"UpgradeID":"9730"
+						"UpgradeID":9730
 					},
 					{
 						"RequiredLvl":230,
 						"RequiredUpgradeID":0,
 						"SpecName":"Alchemist's Fire Expertise",
-						"UpgradeID":"9731"
+						"UpgradeID":9731
 					},
 					{
 						"RequiredLvl":230,
 						"RequiredUpgradeID":0,
 						"SpecName":"Criminal Contacts",
-						"UpgradeID":"9732"
+						"UpgradeID":9732
 					}
 				]
 			],
@@ -2007,7 +2029,7 @@
 		"HeroID":48,
 		"HeroName":"Jim",
 		"MaxLvl":1230,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2028,13 +2050,13 @@
 						"RequiredLvl":210,
 						"RequiredUpgradeID":0,
 						"SpecName":"Darkmagic Cheer Squad",
-						"UpgradeID":"2891"
+						"UpgradeID":2891
 					},
 					{
 						"RequiredLvl":210,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Is There An Echo In Here?",
-						"UpgradeID":"2892"
+						"UpgradeID":2892
 					}
 				]
 			],
@@ -2045,7 +2067,7 @@
 		"HeroID":49,
 		"HeroName":"Turiel",
 		"MaxLvl":2240,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2064,15 +2086,15 @@
 				[
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Voice of Resilience",
-						"UpgradeID":"10663"
+						"UpgradeID":10663
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Voice of Authority",
-						"UpgradeID":"10664"
+						"UpgradeID":10664
 					}
 				]
 			],
@@ -2083,7 +2105,7 @@
 		"HeroID":50,
 		"HeroName":"Pwent",
 		"MaxLvl":2110,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2102,21 +2124,21 @@
 				[
 					{
 						"RequiredLvl":360,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Counting Class",
-						"UpgradeID":"3035"
+						"UpgradeID":3035
 					},
 					{
 						"RequiredLvl":360,
 						"RequiredUpgradeID":0,
 						"SpecName":"Bloodstained Armor",
-						"UpgradeID":"3036"
+						"UpgradeID":3036
 					},
 					{
 						"RequiredLvl":360,
 						"RequiredUpgradeID":0,
 						"SpecName":"Dwarven Hair Grease",
-						"UpgradeID":"3043"
+						"UpgradeID":3043
 					}
 				]
 			],
@@ -2127,7 +2149,7 @@
 		"HeroID":51,
 		"HeroName":"Avren",
 		"MaxLvl":1310,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -2154,21 +2176,21 @@
 				[
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Mirror Focus (Good)",
-						"UpgradeID":"3095"
+						"UpgradeID":3095
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Mirror Focus (Neutral)",
-						"UpgradeID":"3096"
+						"UpgradeID":3096
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Mirror Focus (Evil)",
-						"UpgradeID":"3097"
+						"UpgradeID":3097
 					}
 				],
 				[
@@ -2176,13 +2198,13 @@
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Sturdy Mirrors",
-						"UpgradeID":"3098"
+						"UpgradeID":3098
 					},
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Empowered Mirrors",
-						"UpgradeID":"3099"
+						"UpgradeID":3099
 					}
 				]
 			],
@@ -2193,7 +2215,7 @@
 		"HeroID":52,
 		"HeroName":"Sentry",
 		"MaxLvl":2560,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2214,19 +2236,19 @@
 						"RequiredLvl":225,
 						"RequiredUpgradeID":0,
 						"SpecName":"Dedicated Guardian",
-						"UpgradeID":"8763"
+						"UpgradeID":8763
 					},
 					{
 						"RequiredLvl":225,
 						"RequiredUpgradeID":0,
 						"SpecName":"Nature's Wrath",
-						"UpgradeID":"8866"
+						"UpgradeID":8866
 					},
 					{
 						"RequiredLvl":225,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Sentry's Homeland",
-						"UpgradeID":"8867"
+						"UpgradeID":8867
 					}
 				]
 			],
@@ -2237,7 +2259,7 @@
 		"HeroID":53,
 		"HeroName":"Krull",
 		"MaxLvl":1450,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2258,19 +2280,19 @@
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Plague Focus: {Pilfer}#0F0",
-						"UpgradeID":"3214"
+						"UpgradeID":3214
 					},
 					{
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Plague Focus: {Pain}#F00",
-						"UpgradeID":"3215"
+						"UpgradeID":3215
 					},
 					{
 						"RequiredLvl":180,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Plague Focus: {Traitor}#F0F",
-						"UpgradeID":"3216"
+						"UpgradeID":3216
 					}
 				]
 			],
@@ -2281,7 +2303,7 @@
 		"HeroID":54,
 		"HeroName":"Artemis",
 		"MaxLvl":3210,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2300,15 +2322,15 @@
 				[
 					{
 						"RequiredLvl":400,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Observance: Friend",
-						"UpgradeID":"3269"
+						"UpgradeID":3269
 					},
 					{
 						"RequiredLvl":400,
 						"RequiredUpgradeID":0,
 						"SpecName":"Observance: Foe",
-						"UpgradeID":"3270"
+						"UpgradeID":3270
 					}
 				]
 			],
@@ -2317,9 +2339,9 @@
 	},
 	"55":{
 		"HeroID":55,
-		"HeroName":"M\u00f4rg\u00e6n",
+		"HeroName":"Môrgæn",
 		"MaxLvl":1590,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -2360,53 +2382,53 @@
 				[
 					{
 						"RequiredLvl":240,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Fine As Is",
-						"UpgradeID":"3330"
+						"UpgradeID":3330
 					},
 					{
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Keep Your Distance",
-						"UpgradeID":"3331"
+						"UpgradeID":3331
 					},
 					{
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Monster Fodder",
-						"UpgradeID":"3332"
+						"UpgradeID":3332
 					},
 					{
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Stay Out Of My Way",
-						"UpgradeID":"3333"
+						"UpgradeID":3333
 					}
 				],
 				[
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Keep It Simple",
-						"UpgradeID":"3334"
+						"UpgradeID":3334
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Tight Formation",
-						"UpgradeID":"3335"
+						"UpgradeID":3335
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Calm Under Pressure",
-						"UpgradeID":"3336"
+						"UpgradeID":3336
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"The Long Game",
-						"UpgradeID":"3337"
+						"UpgradeID":3337
 					}
 				],
 				[
@@ -2414,19 +2436,19 @@
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3334,
 						"SpecName":"Tight Formation",
-						"UpgradeID":"3340"
+						"UpgradeID":3340
 					},
 					{
 						"RequiredLvl":420,
-						"RequiredUpgradeID":"3334",
+						"RequiredUpgradeID":3334,
 						"SpecName":"Calm Under Pressure",
-						"UpgradeID":"3341"
+						"UpgradeID":3341
 					},
 					{
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3334,
 						"SpecName":"The Long Game",
-						"UpgradeID":"3342"
+						"UpgradeID":3342
 					}
 				],
 				[
@@ -2434,19 +2456,19 @@
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3336,
 						"SpecName":"Keep It Simple",
-						"UpgradeID":"3346"
+						"UpgradeID":3346
 					},
 					{
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3336,
 						"SpecName":"Tight Formation",
-						"UpgradeID":"3347"
+						"UpgradeID":3347
 					},
 					{
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3336,
 						"SpecName":"The Long Game",
-						"UpgradeID":"3348"
+						"UpgradeID":3348
 					}
 				],
 				[
@@ -2454,19 +2476,19 @@
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3335,
 						"SpecName":"Keep It Simple",
-						"UpgradeID":"3343"
+						"UpgradeID":3343
 					},
 					{
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3335,
 						"SpecName":"Calm Under Pressure",
-						"UpgradeID":"3344"
+						"UpgradeID":3344
 					},
 					{
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3335,
 						"SpecName":"The Long Game",
-						"UpgradeID":"3345"
+						"UpgradeID":3345
 					}
 				],
 				[
@@ -2474,19 +2496,19 @@
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3337,
 						"SpecName":"Keep It Simple",
-						"UpgradeID":"3349"
+						"UpgradeID":3349
 					},
 					{
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3337,
 						"SpecName":"Tight Formation",
-						"UpgradeID":"3350"
+						"UpgradeID":3350
 					},
 					{
 						"RequiredLvl":420,
 						"RequiredUpgradeID":3337,
 						"SpecName":"Calm Under Pressure",
-						"UpgradeID":"3351"
+						"UpgradeID":3351
 					}
 				]
 			],
@@ -2497,7 +2519,7 @@
 		"HeroID":56,
 		"HeroName":"Havilar",
 		"MaxLvl":1710,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2518,13 +2540,13 @@
 						"RequiredLvl":275,
 						"RequiredUpgradeID":0,
 						"SpecName":"Speedy Sacrifice",
-						"UpgradeID":"3436"
+						"UpgradeID":3436
 					},
 					{
 						"RequiredLvl":275,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Mastery of Battle",
-						"UpgradeID":"3437"
+						"UpgradeID":3437
 					}
 				]
 			],
@@ -2535,7 +2557,7 @@
 		"HeroID":57,
 		"HeroName":"Sisaspia",
 		"MaxLvl":970,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2554,21 +2576,21 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Simple Infection",
-						"UpgradeID":"3443"
+						"UpgradeID":3443
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Spreading Spores",
-						"UpgradeID":"3444"
+						"UpgradeID":3444
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Fungal Body",
-						"UpgradeID":"3445"
+						"UpgradeID":3445
 					}
 				]
 			],
@@ -2579,7 +2601,7 @@
 		"HeroID":58,
 		"HeroName":"Briv",
 		"MaxLvl":1300,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2598,21 +2620,21 @@
 				[
 					{
 						"RequiredLvl":170,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Metalborn",
-						"UpgradeID":"3455"
+						"UpgradeID":3455
 					},
 					{
 						"RequiredLvl":170,
 						"RequiredUpgradeID":0,
 						"SpecName":"Tempered Steel",
-						"UpgradeID":"3456"
+						"UpgradeID":3456
 					},
 					{
 						"RequiredLvl":170,
 						"RequiredUpgradeID":0,
 						"SpecName":"Go With The Phlo",
-						"UpgradeID":"3457"
+						"UpgradeID":3457
 					}
 				]
 			],
@@ -2623,7 +2645,7 @@
 		"HeroID":59,
 		"HeroName":"Melf",
 		"MaxLvl":1560,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2644,19 +2666,19 @@
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Bonus Adaption",
-						"UpgradeID":"3513"
+						"UpgradeID":3513
 					},
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Extra Supplements",
-						"UpgradeID":"3514"
+						"UpgradeID":3514
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Absolute Righteousness",
-						"UpgradeID":"3515"
+						"UpgradeID":3515
 					}
 				]
 			],
@@ -2667,7 +2689,7 @@
 		"HeroID":60,
 		"HeroName":"Krydle",
 		"MaxLvl":3270,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2686,15 +2708,15 @@
 				[
 					{
 						"RequiredLvl":400,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Keep Your Friends Close",
-						"UpgradeID":"9634"
+						"UpgradeID":9634
 					},
 					{
 						"RequiredLvl":400,
 						"RequiredUpgradeID":0,
 						"SpecName":"Keep Your Enemies Closer",
-						"UpgradeID":"9635"
+						"UpgradeID":9635
 					}
 				]
 			],
@@ -2705,7 +2727,7 @@
 		"HeroID":61,
 		"HeroName":"Jaheira",
 		"MaxLvl":2140,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -2732,27 +2754,27 @@
 				[
 					{
 						"RequiredLvl":30,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Class Act - Spellslingers",
-						"UpgradeID":"9714"
+						"UpgradeID":9714
 					},
 					{
 						"RequiredLvl":30,
 						"RequiredUpgradeID":0,
 						"SpecName":"Class Act - Bruisers",
-						"UpgradeID":"9715"
+						"UpgradeID":9715
 					},
 					{
 						"RequiredLvl":30,
 						"RequiredUpgradeID":0,
 						"SpecName":"Class Act - Hybrids",
-						"UpgradeID":"9716"
+						"UpgradeID":9716
 					},
 					{
 						"RequiredLvl":30,
 						"RequiredUpgradeID":0,
 						"SpecName":"Class Act - Baldur's Gate",
-						"UpgradeID":"9717"
+						"UpgradeID":9717
 					}
 				],
 				[
@@ -2760,25 +2782,25 @@
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Hunter - Nature",
-						"UpgradeID":"9718"
+						"UpgradeID":9718
 					},
 					{
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Hunter - Twisted Creatures",
-						"UpgradeID":"9719"
+						"UpgradeID":9719
 					},
 					{
 						"RequiredLvl":180,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Hunter - Civilization",
-						"UpgradeID":"9720"
+						"UpgradeID":9720
 					},
 					{
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Hunter - Soulless",
-						"UpgradeID":"9721"
+						"UpgradeID":9721
 					}
 				]
 			],
@@ -2789,7 +2811,7 @@
 		"HeroID":62,
 		"HeroName":"Nova",
 		"MaxLvl":2320,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2810,13 +2832,13 @@
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"New Recruits",
-						"UpgradeID":"8753"
+						"UpgradeID":8753
 					},
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Tight Knit",
-						"UpgradeID":"8754"
+						"UpgradeID":8754
 					}
 				]
 			],
@@ -2827,7 +2849,7 @@
 		"HeroID":63,
 		"HeroName":"Freely",
 		"MaxLvl":1720,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2846,21 +2868,21 @@
 				[
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Trust in Law",
-						"UpgradeID":"4041"
+						"UpgradeID":4041
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Value Neutrality",
-						"UpgradeID":"4042"
+						"UpgradeID":4042
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Always Expect Chaos",
-						"UpgradeID":"4043"
+						"UpgradeID":4043
 					}
 				]
 			],
@@ -2871,7 +2893,7 @@
 		"HeroID":64,
 		"HeroName":"Beadle & Grimm",
 		"MaxLvl":1380,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -2898,29 +2920,29 @@
 				[
 					{
 						"RequiredLvl":110,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"As Quick As Me",
-						"UpgradeID":"4176"
+						"UpgradeID":4176
 					},
 					{
 						"RequiredLvl":110,
 						"RequiredUpgradeID":0,
 						"SpecName":"As Clever As Me",
-						"UpgradeID":"4177"
+						"UpgradeID":4177
 					}
 				],
 				[
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Chip Away",
-						"UpgradeID":"4178"
+						"UpgradeID":4178
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Strongman Contest",
-						"UpgradeID":"4179"
+						"UpgradeID":4179
 					}
 				]
 			],
@@ -2931,7 +2953,7 @@
 		"HeroID":65,
 		"HeroName":"Omin",
 		"MaxLvl":2430,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2950,21 +2972,21 @@
 				[
 					{
 						"RequiredLvl":320,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Long-Lost Friends",
-						"UpgradeID":"4343"
+						"UpgradeID":4343
 					},
 					{
 						"RequiredLvl":320,
 						"RequiredUpgradeID":0,
 						"SpecName":"Close Allies",
-						"UpgradeID":"4344"
+						"UpgradeID":4344
 					},
 					{
 						"RequiredLvl":320,
 						"RequiredUpgradeID":0,
 						"SpecName":"Assassin",
-						"UpgradeID":"4345"
+						"UpgradeID":4345
 					}
 				]
 			],
@@ -2975,7 +2997,7 @@
 		"HeroID":66,
 		"HeroName":"Lazaapz",
 		"MaxLvl":2280,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -2996,19 +3018,19 @@
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Stolen Power",
-						"UpgradeID":"4480"
+						"UpgradeID":4480
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Team Player",
-						"UpgradeID":"4481"
+						"UpgradeID":4481
 					},
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"The Zapper",
-						"UpgradeID":"4482"
+						"UpgradeID":4482
 					}
 				]
 			],
@@ -3019,7 +3041,7 @@
 		"HeroID":67,
 		"HeroName":"Dragonbait",
 		"MaxLvl":1130,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3038,15 +3060,15 @@
 				[
 					{
 						"RequiredLvl":120,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Scent: Roasted Chicken",
-						"UpgradeID":"3277"
+						"UpgradeID":3277
 					},
 					{
 						"RequiredLvl":120,
 						"RequiredUpgradeID":0,
 						"SpecName":"Scent: Herbs and Spices",
-						"UpgradeID":"3278"
+						"UpgradeID":3278
 					}
 				]
 			],
@@ -3057,7 +3079,7 @@
 		"HeroID":68,
 		"HeroName":"Ulkoria",
 		"MaxLvl":2770,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3076,15 +3098,15 @@
 				[
 					{
 						"RequiredLvl":435,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Shield Guardian",
-						"UpgradeID":"4349"
+						"UpgradeID":4349
 					},
 					{
 						"RequiredLvl":435,
 						"RequiredUpgradeID":0,
 						"SpecName":"Urchin Pranks",
-						"UpgradeID":"4350"
+						"UpgradeID":4350
 					}
 				]
 			],
@@ -3095,7 +3117,7 @@
 		"HeroID":69,
 		"HeroName":"Torogar",
 		"MaxLvl":2070,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3116,13 +3138,13 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Tiamat's Word",
-						"UpgradeID":"4492"
+						"UpgradeID":4492
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Tiamat's Rage",
-						"UpgradeID":"4493"
+						"UpgradeID":4493
 					}
 				]
 			],
@@ -3133,7 +3155,7 @@
 		"HeroID":70,
 		"HeroName":"Ezmerelda",
 		"MaxLvl":2020,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -3162,45 +3184,45 @@
 						"RequiredLvl":225,
 						"RequiredUpgradeID":0,
 						"SpecName":"Stay on Target",
-						"UpgradeID":"4497"
+						"UpgradeID":4497
 					},
 					{
 						"RequiredLvl":225,
 						"RequiredUpgradeID":0,
 						"SpecName":"Fiendish Stature",
-						"UpgradeID":"4498"
+						"UpgradeID":4498
 					},
 					{
 						"RequiredLvl":225,
 						"RequiredUpgradeID":0,
 						"SpecName":"The Devil Wears Many Masks",
-						"UpgradeID":"4499"
+						"UpgradeID":4499
 					},
 					{
 						"RequiredLvl":225,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Monstrous Intentions",
-						"UpgradeID":"4500"
+						"UpgradeID":4500
 					}
 				],
 				[
 					{
 						"RequiredLvl":315,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Smells Like a Trap",
-						"UpgradeID":"4501"
+						"UpgradeID":4501
 					},
 					{
 						"RequiredLvl":315,
 						"RequiredUpgradeID":0,
 						"SpecName":"We've Trained For This",
-						"UpgradeID":"4502"
+						"UpgradeID":4502
 					},
 					{
 						"RequiredLvl":315,
 						"RequiredUpgradeID":0,
 						"SpecName":"He's Still Out There",
-						"UpgradeID":"4503"
+						"UpgradeID":4503
 					}
 				]
 			],
@@ -3211,7 +3233,7 @@
 		"HeroID":71,
 		"HeroName":"Penelope",
 		"MaxLvl":1970,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -3238,21 +3260,21 @@
 				[
 					{
 						"RequiredLvl":80,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Keep Your Friends Close",
-						"UpgradeID":"4568"
+						"UpgradeID":4568
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Keep Your Future Friends Closer",
-						"UpgradeID":"4569"
+						"UpgradeID":4569
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Everybody Gets To Be Friends",
-						"UpgradeID":"4570"
+						"UpgradeID":4570
 					}
 				],
 				[
@@ -3260,13 +3282,13 @@
 						"RequiredLvl":220,
 						"RequiredUpgradeID":0,
 						"SpecName":"Minor Eruption",
-						"UpgradeID":"4572"
+						"UpgradeID":4572
 					},
 					{
 						"RequiredLvl":220,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Hey Batter Batter",
-						"UpgradeID":"4573"
+						"UpgradeID":4573
 					}
 				]
 			],
@@ -3277,7 +3299,7 @@
 		"HeroID":72,
 		"HeroName":"Lucius",
 		"MaxLvl":2240,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3298,19 +3320,19 @@
 						"RequiredLvl":370,
 						"RequiredUpgradeID":0,
 						"SpecName":"Dichromancy",
-						"UpgradeID":"8731"
+						"UpgradeID":8731
 					},
 					{
 						"RequiredLvl":370,
 						"RequiredUpgradeID":0,
 						"SpecName":"Elemental Master",
-						"UpgradeID":"8732"
+						"UpgradeID":8732
 					},
 					{
 						"RequiredLvl":370,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Lingering Chill",
-						"UpgradeID":"8733"
+						"UpgradeID":8733
 					}
 				]
 			],
@@ -3321,7 +3343,7 @@
 		"HeroID":73,
 		"HeroName":"Baeloth",
 		"MaxLvl":1240,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3340,21 +3362,21 @@
 				[
 					{
 						"RequiredLvl":220,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Baeloth's Birthday Party",
-						"UpgradeID":"4749"
+						"UpgradeID":4749
 					},
 					{
 						"RequiredLvl":220,
 						"RequiredUpgradeID":0,
 						"SpecName":"Over Excited",
-						"UpgradeID":"4750"
+						"UpgradeID":4750
 					},
 					{
 						"RequiredLvl":220,
 						"RequiredUpgradeID":0,
 						"SpecName":"The Show Must Go On",
-						"UpgradeID":"4751"
+						"UpgradeID":4751
 					}
 				]
 			],
@@ -3365,7 +3387,7 @@
 		"HeroID":74,
 		"HeroName":"Talin",
 		"MaxLvl":2220,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3386,19 +3408,19 @@
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Path Finder",
-						"UpgradeID":"4765"
+						"UpgradeID":4765
 					},
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Additional Scatter Tacks",
-						"UpgradeID":"4766"
+						"UpgradeID":4766
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Reversal of Fortunes",
-						"UpgradeID":"4767"
+						"UpgradeID":4767
 					}
 				]
 			],
@@ -3409,7 +3431,7 @@
 		"HeroID":75,
 		"HeroName":"Hew Maan",
 		"MaxLvl":3470,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3430,19 +3452,19 @@
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Did We Say Humans? We Meant...",
-						"UpgradeID":"10653"
+						"UpgradeID":10653
 					},
 					{
 						"RequiredLvl":240,
 						"RequiredUpgradeID":0,
 						"SpecName":"Law Maan",
-						"UpgradeID":"10654"
+						"UpgradeID":10654
 					},
 					{
 						"RequiredLvl":240,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Hello, Fellow Mercenaries!",
-						"UpgradeID":"10655"
+						"UpgradeID":10655
 					}
 				]
 			],
@@ -3453,7 +3475,7 @@
 		"HeroID":76,
 		"HeroName":"Orisha",
 		"MaxLvl":1880,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -3480,29 +3502,29 @@
 				[
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Blazing Soul",
-						"UpgradeID":"4909"
+						"UpgradeID":4909
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Long Burn",
-						"UpgradeID":"4910"
+						"UpgradeID":4910
 					}
 				],
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Sirens' Connection",
-						"UpgradeID":"4911"
+						"UpgradeID":4911
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Fierce Connection",
-						"UpgradeID":"4912"
+						"UpgradeID":4912
 					}
 				]
 			],
@@ -3513,7 +3535,7 @@
 		"HeroID":77,
 		"HeroName":"Alyndra",
 		"MaxLvl":3030,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3532,15 +3554,15 @@
 				[
 					{
 						"RequiredLvl":315,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Expansive Vision",
-						"UpgradeID":"5380"
+						"UpgradeID":5380
 					},
 					{
 						"RequiredLvl":315,
 						"RequiredUpgradeID":0,
 						"SpecName":"Extra Judgy",
-						"UpgradeID":"5381"
+						"UpgradeID":5381
 					}
 				]
 			],
@@ -3551,7 +3573,7 @@
 		"HeroID":78,
 		"HeroName":"Orkira",
 		"MaxLvl":2500,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3570,15 +3592,15 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Breath of the Phoenix",
-						"UpgradeID":"5576"
+						"UpgradeID":5576
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Tailfeather of the Phoenix",
-						"UpgradeID":"5577"
+						"UpgradeID":5577
 					}
 				]
 			],
@@ -3589,7 +3611,7 @@
 		"HeroID":79,
 		"HeroName":"Shaka",
 		"MaxLvl":2420,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -3618,27 +3640,27 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Sunday Edition",
-						"UpgradeID":"5650"
+						"UpgradeID":5650
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Better Luck Next Time",
-						"UpgradeID":"5651"
+						"UpgradeID":5651
 					}
 				],
 				[
 					{
 						"RequiredLvl":400,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Blinding Wall of Light",
-						"UpgradeID":"5652"
+						"UpgradeID":5652
 					},
 					{
 						"RequiredLvl":400,
 						"RequiredUpgradeID":0,
 						"SpecName":"Disintegrating Wall of Light",
-						"UpgradeID":"5653"
+						"UpgradeID":5653
 					}
 				]
 			],
@@ -3649,7 +3671,7 @@
 		"HeroID":80,
 		"HeroName":"Mehen",
 		"MaxLvl":2170,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3670,19 +3692,19 @@
 						"RequiredLvl":350,
 						"RequiredUpgradeID":0,
 						"SpecName":"Cheer Up Pops",
-						"UpgradeID":"5640"
+						"UpgradeID":5640
 					},
 					{
 						"RequiredLvl":350,
 						"RequiredUpgradeID":0,
 						"SpecName":"We've trained for this",
-						"UpgradeID":"5641"
+						"UpgradeID":5641
 					},
 					{
 						"RequiredLvl":350,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Always by your Side",
-						"UpgradeID":"7547"
+						"UpgradeID":7547
 					}
 				]
 			],
@@ -3693,7 +3715,7 @@
 		"HeroID":81,
 		"HeroName":"Selise",
 		"MaxLvl":1340,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -3726,35 +3748,35 @@
 				[
 					{
 						"RequiredLvl":120,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Relentless Avenger",
-						"UpgradeID":"5785"
+						"UpgradeID":5785
 					},
 					{
 						"RequiredLvl":120,
 						"RequiredUpgradeID":0,
 						"SpecName":"Reflective Shield",
-						"UpgradeID":"5786"
+						"UpgradeID":5786
 					},
 					{
 						"RequiredLvl":120,
 						"RequiredUpgradeID":0,
 						"SpecName":"Mithral Skin",
-						"UpgradeID":"5787"
+						"UpgradeID":5787
 					}
 				],
 				[
 					{
 						"RequiredLvl":230,
-						"RequiredUpgradeID":"5785",
+						"RequiredUpgradeID":5785,
 						"SpecName":"Reflective Shield",
-						"UpgradeID":"5789"
+						"UpgradeID":5789
 					},
 					{
 						"RequiredLvl":230,
 						"RequiredUpgradeID":5785,
 						"SpecName":"Mithral Skin",
-						"UpgradeID":"5790"
+						"UpgradeID":5790
 					}
 				],
 				[
@@ -3762,13 +3784,13 @@
 						"RequiredLvl":230,
 						"RequiredUpgradeID":5786,
 						"SpecName":"Relentless Avenger",
-						"UpgradeID":"5791"
+						"UpgradeID":5791
 					},
 					{
 						"RequiredLvl":230,
 						"RequiredUpgradeID":5786,
 						"SpecName":"Mithral Skin",
-						"UpgradeID":"5792"
+						"UpgradeID":5792
 					}
 				],
 				[
@@ -3776,7 +3798,7 @@
 						"RequiredLvl":230,
 						"RequiredUpgradeID":0,
 						"SpecName":"Tyr's Eyes",
-						"UpgradeID":"5788"
+						"UpgradeID":5788
 					}
 				],
 				[
@@ -3784,13 +3806,13 @@
 						"RequiredLvl":230,
 						"RequiredUpgradeID":5787,
 						"SpecName":"Relentless Avenger",
-						"UpgradeID":"5793"
+						"UpgradeID":5793
 					},
 					{
 						"RequiredLvl":230,
 						"RequiredUpgradeID":5787,
 						"SpecName":"Reflective Shield",
-						"UpgradeID":"5794"
+						"UpgradeID":5794
 					}
 				]
 			],
@@ -3801,7 +3823,7 @@
 		"HeroID":82,
 		"HeroName":"Sgt. Knox",
 		"MaxLvl":1860,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3820,21 +3842,21 @@
 				[
 					{
 						"RequiredLvl":180,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Explosive Rally",
-						"UpgradeID":"5985"
+						"UpgradeID":5985
 					},
 					{
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Altruistic Rally",
-						"UpgradeID":"5986"
+						"UpgradeID":5986
 					},
 					{
 						"RequiredLvl":180,
 						"RequiredUpgradeID":0,
 						"SpecName":"Shield Wall",
-						"UpgradeID":"5987"
+						"UpgradeID":5987
 					}
 				]
 			],
@@ -3845,7 +3867,7 @@
 		"HeroID":83,
 		"HeroName":"Ellywick",
 		"MaxLvl":1870,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3866,19 +3888,19 @@
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"For The Fans",
-						"UpgradeID":"5995"
+						"UpgradeID":5995
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Faster Tempo",
-						"UpgradeID":"5996"
+						"UpgradeID":5996
 					},
 					{
 						"RequiredLvl":160,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"All That Sparkles",
-						"UpgradeID":"5997"
+						"UpgradeID":5997
 					}
 				]
 			],
@@ -3889,7 +3911,7 @@
 		"HeroID":84,
 		"HeroName":"Prudence",
 		"MaxLvl":3070,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3908,15 +3930,15 @@
 				[
 					{
 						"RequiredLvl":600,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Eldritch Torrent",
-						"UpgradeID":"6072"
+						"UpgradeID":6072
 					},
 					{
 						"RequiredLvl":600,
 						"RequiredUpgradeID":0,
 						"SpecName":"She Hungers",
-						"UpgradeID":"6073"
+						"UpgradeID":6073
 					}
 				]
 			],
@@ -3925,9 +3947,9 @@
 	},
 	"85":{
 		"HeroID":85,
-		"HeroName":"Coraz\u00f3n",
+		"HeroName":"Corazón",
 		"MaxLvl":1960,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3946,15 +3968,15 @@
 				[
 					{
 						"RequiredLvl":220,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Distant Crewmates",
-						"UpgradeID":"6133"
+						"UpgradeID":6133
 					},
 					{
 						"RequiredLvl":220,
 						"RequiredUpgradeID":0,
 						"SpecName":"Mage Hand",
-						"UpgradeID":"6134"
+						"UpgradeID":6134
 					}
 				]
 			],
@@ -3965,7 +3987,7 @@
 		"HeroID":86,
 		"HeroName":"Reya",
 		"MaxLvl":1260,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -3984,15 +4006,15 @@
 				[
 					{
 						"RequiredLvl":160,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Champions of Good",
-						"UpgradeID":"5459"
+						"UpgradeID":5459
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Champions of Law",
-						"UpgradeID":"5460"
+						"UpgradeID":5460
 					}
 				]
 			],
@@ -4003,7 +4025,7 @@
 		"HeroID":87,
 		"HeroName":"NERDS",
 		"MaxLvl":1710,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4024,37 +4046,37 @@
 						"RequiredLvl":270,
 						"RequiredUpgradeID":0,
 						"SpecName":"Orange Leader, Standing By",
-						"UpgradeID":"6146"
+						"UpgradeID":6146
 					},
 					{
 						"RequiredLvl":270,
 						"RequiredUpgradeID":0,
 						"SpecName":"Red Leader, Standing By",
-						"UpgradeID":"6147"
+						"UpgradeID":6147
 					},
 					{
 						"RequiredLvl":270,
 						"RequiredUpgradeID":0,
 						"SpecName":"Green Leader, Standing By",
-						"UpgradeID":"6148"
+						"UpgradeID":6148
 					},
 					{
 						"RequiredLvl":270,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Yellow Leader, Standing By",
-						"UpgradeID":"6149"
+						"UpgradeID":6149
 					},
 					{
 						"RequiredLvl":270,
 						"RequiredUpgradeID":0,
 						"SpecName":"Pink Leader, Standing By",
-						"UpgradeID":"6150"
+						"UpgradeID":6150
 					},
 					{
 						"RequiredLvl":270,
 						"RequiredUpgradeID":0,
 						"SpecName":"Purple Leader, Standing By",
-						"UpgradeID":"6151"
+						"UpgradeID":6151
 					}
 				]
 			],
@@ -4065,7 +4087,7 @@
 		"HeroID":88,
 		"HeroName":"Xerophon",
 		"MaxLvl":1660,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -4124,15 +4146,15 @@
 				[
 					{
 						"RequiredLvl":20,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"High Strength",
-						"UpgradeID":"6838"
+						"UpgradeID":6838
 					},
 					{
 						"RequiredLvl":20,
 						"RequiredUpgradeID":0,
 						"SpecName":"Low Strength",
-						"UpgradeID":"6839"
+						"UpgradeID":6839
 					}
 				],
 				[
@@ -4140,13 +4162,13 @@
 						"RequiredLvl":50,
 						"RequiredUpgradeID":0,
 						"SpecName":"High Dexterity",
-						"UpgradeID":"6840"
+						"UpgradeID":6840
 					},
 					{
 						"RequiredLvl":50,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Low Dexterity",
-						"UpgradeID":"6841"
+						"UpgradeID":6841
 					}
 				],
 				[
@@ -4154,41 +4176,41 @@
 						"RequiredLvl":90,
 						"RequiredUpgradeID":0,
 						"SpecName":"High Constitution",
-						"UpgradeID":"6978"
+						"UpgradeID":6978
 					},
 					{
 						"RequiredLvl":90,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Low Constitution",
-						"UpgradeID":"6979"
+						"UpgradeID":6979
 					}
 				],
 				[
 					{
 						"RequiredLvl":130,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"High Intelligence",
-						"UpgradeID":"6976"
+						"UpgradeID":6976
 					},
 					{
 						"RequiredLvl":130,
 						"RequiredUpgradeID":0,
 						"SpecName":"Low Intelligence",
-						"UpgradeID":"6977"
+						"UpgradeID":6977
 					}
 				],
 				[
 					{
 						"RequiredLvl":170,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"High Wisdom",
-						"UpgradeID":"6980"
+						"UpgradeID":6980
 					},
 					{
 						"RequiredLvl":170,
 						"RequiredUpgradeID":0,
 						"SpecName":"Low Wisdom",
-						"UpgradeID":"6981"
+						"UpgradeID":6981
 					}
 				],
 				[
@@ -4196,13 +4218,13 @@
 						"RequiredLvl":210,
 						"RequiredUpgradeID":0,
 						"SpecName":"High Charisma",
-						"UpgradeID":"6842"
+						"UpgradeID":6842
 					},
 					{
 						"RequiredLvl":210,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Low Charisma",
-						"UpgradeID":"6843"
+						"UpgradeID":6843
 					}
 				]
 			],
@@ -4213,7 +4235,7 @@
 		"HeroID":89,
 		"HeroName":"D'hani",
 		"MaxLvl":1560,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4232,21 +4254,21 @@
 				[
 					{
 						"RequiredLvl":230,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Splash of Yellow",
-						"UpgradeID":"6219"
+						"UpgradeID":6219
 					},
 					{
 						"RequiredLvl":230,
 						"RequiredUpgradeID":0,
 						"SpecName":"Stroke of Green",
-						"UpgradeID":"6220"
+						"UpgradeID":6220
 					},
 					{
 						"RequiredLvl":230,
 						"RequiredUpgradeID":0,
 						"SpecName":"Blotch of Blue",
-						"UpgradeID":"6221"
+						"UpgradeID":6221
 					}
 				]
 			],
@@ -4257,7 +4279,7 @@
 		"HeroID":90,
 		"HeroName":"Brig",
 		"MaxLvl":1790,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4276,15 +4298,15 @@
 				[
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"\"Back\"-Up Singer",
-						"UpgradeID":"6355"
+						"UpgradeID":6355
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Cream of the Crop",
-						"UpgradeID":"6356"
+						"UpgradeID":6356
 					}
 				]
 			],
@@ -4295,7 +4317,7 @@
 		"HeroID":91,
 		"HeroName":"Widdle",
 		"MaxLvl":2640,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4316,19 +4338,19 @@
 						"RequiredLvl":310,
 						"RequiredUpgradeID":0,
 						"SpecName":"Strong and Steady",
-						"UpgradeID":"6909"
+						"UpgradeID":6909
 					},
 					{
 						"RequiredLvl":310,
 						"RequiredUpgradeID":0,
 						"SpecName":"Mind and Body",
-						"UpgradeID":"6910"
+						"UpgradeID":6910
 					},
 					{
 						"RequiredLvl":310,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Wisdom and Confidence",
-						"UpgradeID":"6911"
+						"UpgradeID":6911
 					}
 				]
 			],
@@ -4339,7 +4361,7 @@
 		"HeroID":92,
 		"HeroName":"Yorven",
 		"MaxLvl":1545,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4358,15 +4380,15 @@
 				[
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Hunger For Blood",
-						"UpgradeID":"6989"
+						"UpgradeID":6989
 					},
 					{
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Eldritch Claw Tattoo",
-						"UpgradeID":"6990"
+						"UpgradeID":6990
 					}
 				]
 			],
@@ -4377,7 +4399,7 @@
 		"HeroID":93,
 		"HeroName":"Viconia",
 		"MaxLvl":1740,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4396,21 +4418,21 @@
 				[
 					{
 						"RequiredLvl":80,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Holy Power",
-						"UpgradeID":"9784"
+						"UpgradeID":9784
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Begrudging Respect",
-						"UpgradeID":"9785"
+						"UpgradeID":9785
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Turn Undead",
-						"UpgradeID":"9786"
+						"UpgradeID":9786
 					}
 				]
 			],
@@ -4421,7 +4443,7 @@
 		"HeroID":94,
 		"HeroName":"Rust",
 		"MaxLvl":2640,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4440,21 +4462,21 @@
 				[
 					{
 						"RequiredLvl":160,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Especially Shiny",
-						"UpgradeID":"7167"
+						"UpgradeID":7167
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Close Friends",
-						"UpgradeID":"7168"
+						"UpgradeID":7168
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Rust Reloaded",
-						"UpgradeID":"7169"
+						"UpgradeID":7169
 					}
 				]
 			],
@@ -4465,7 +4487,7 @@
 		"HeroID":95,
 		"HeroName":"Vi",
 		"MaxLvl":3040,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -4492,21 +4514,21 @@
 				[
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Bless Their Hearts",
-						"UpgradeID":"7180"
+						"UpgradeID":7180
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Her Debt to Repay",
-						"UpgradeID":"7181"
+						"UpgradeID":7181
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"A Nudge In The Right Direction",
-						"UpgradeID":"7182"
+						"UpgradeID":7182
 					}
 				],
 				[
@@ -4514,13 +4536,13 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"That Doesn't Belong Here",
-						"UpgradeID":"7183"
+						"UpgradeID":7183
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"For #*!% Sake!",
-						"UpgradeID":"7184"
+						"UpgradeID":7184
 					}
 				]
 			],
@@ -4531,7 +4553,7 @@
 		"HeroID":96,
 		"HeroName":"Desmond",
 		"MaxLvl":3150,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4550,21 +4572,21 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Double Time",
-						"UpgradeID":"7304"
+						"UpgradeID":7304
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Embrace the Beast",
-						"UpgradeID":"7305"
+						"UpgradeID":7305
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Strength in Numbers",
-						"UpgradeID":"7306"
+						"UpgradeID":7306
 					}
 				]
 			],
@@ -4575,7 +4597,7 @@
 		"HeroID":97,
 		"HeroName":"Tatyana",
 		"MaxLvl":1500,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4596,19 +4618,19 @@
 						"RequiredLvl":140,
 						"RequiredUpgradeID":0,
 						"SpecName":"Your Friends are My Friends",
-						"UpgradeID":"7387"
+						"UpgradeID":7387
 					},
 					{
 						"RequiredLvl":140,
 						"RequiredUpgradeID":0,
 						"SpecName":"By My Side",
-						"UpgradeID":"7388"
+						"UpgradeID":7388
 					},
 					{
 						"RequiredLvl":140,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Best Friend Forever",
-						"UpgradeID":"7389"
+						"UpgradeID":7389
 					}
 				]
 			],
@@ -4619,7 +4641,7 @@
 		"HeroID":98,
 		"HeroName":"Gazrick",
 		"MaxLvl":1800,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4638,21 +4660,21 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Genius with Gold",
-						"UpgradeID":"7538"
+						"UpgradeID":7538
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Aim Around Armor",
-						"UpgradeID":"7539"
+						"UpgradeID":7539
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Finesse with Frost",
-						"UpgradeID":"7540"
+						"UpgradeID":7540
 					}
 				]
 			],
@@ -4663,7 +4685,7 @@
 		"HeroID":99,
 		"HeroName":"Dungeon Master",
 		"MaxLvl":2055,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4684,19 +4706,19 @@
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Special Guest Star",
-						"UpgradeID":"7848"
+						"UpgradeID":7848
 					},
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Where Did He Go This Time?",
-						"UpgradeID":"7849"
+						"UpgradeID":7849
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Fear Not, Champions!",
-						"UpgradeID":"7850"
+						"UpgradeID":7850
 					}
 				]
 			],
@@ -4707,7 +4729,7 @@
 		"HeroID":100,
 		"HeroName":"Nordom",
 		"MaxLvl":1730,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4728,13 +4750,13 @@
 						"RequiredLvl":70,
 						"RequiredUpgradeID":0,
 						"SpecName":"Piercing Bolts",
-						"UpgradeID":"7859"
+						"UpgradeID":7859
 					},
 					{
 						"RequiredLvl":70,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Explosive Bolts",
-						"UpgradeID":"7860"
+						"UpgradeID":7860
 					}
 				]
 			],
@@ -4745,7 +4767,7 @@
 		"HeroID":101,
 		"HeroName":"Merilwen",
 		"MaxLvl":1830,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4764,21 +4786,21 @@
 				[
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Stink Like Skunk",
-						"UpgradeID":"7997"
+						"UpgradeID":7997
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Treasures Her Friends",
-						"UpgradeID":"7998"
+						"UpgradeID":7998
 					},
 					{
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Meow-il-wen",
-						"UpgradeID":"7999"
+						"UpgradeID":7999
 					}
 				]
 			],
@@ -4789,7 +4811,7 @@
 		"HeroID":102,
 		"HeroName":"Nahara",
 		"MaxLvl":2740,
-		"Seat":"3",
+		"Seat":3,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4810,19 +4832,19 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"A Grave Experience",
-						"UpgradeID":"8013"
+						"UpgradeID":8013
 					},
 					{
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"A Barovian Bond",
-						"UpgradeID":"8014"
+						"UpgradeID":8014
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"A Skilled Lyre",
-						"UpgradeID":"8015"
+						"UpgradeID":8015
 					}
 				]
 			],
@@ -4833,7 +4855,7 @@
 		"HeroID":103,
 		"HeroName":"Valentine",
 		"MaxLvl":2340,
-		"Seat":"5",
+		"Seat":5,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4854,19 +4876,19 @@
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"All Hail the God Brain",
-						"UpgradeID":"8149"
+						"UpgradeID":8149
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"My Loyal Bodyguard",
-						"UpgradeID":"8150"
+						"UpgradeID":8150
 					},
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Family Business",
-						"UpgradeID":"8151"
+						"UpgradeID":8151
 					}
 				]
 			],
@@ -4877,7 +4899,7 @@
 		"HeroID":104,
 		"HeroName":"Voronika",
 		"MaxLvl":2670,
-		"Seat":"1",
+		"Seat":1,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -4904,21 +4926,21 @@
 				[
 					{
 						"RequiredLvl":110,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Inner Circle: $voronika_inner_circle_0",
-						"UpgradeID":"8642"
+						"UpgradeID":8642
 					},
 					{
 						"RequiredLvl":110,
 						"RequiredUpgradeID":0,
 						"SpecName":"Inner Circle: $voronika_inner_circle_1",
-						"UpgradeID":"8643"
+						"UpgradeID":8643
 					},
 					{
 						"RequiredLvl":110,
 						"RequiredUpgradeID":0,
 						"SpecName":"Inner Circle: $voronika_inner_circle_2",
-						"UpgradeID":"8644"
+						"UpgradeID":8644
 					}
 				],
 				[
@@ -4926,13 +4948,13 @@
 						"RequiredLvl":1000,
 						"RequiredUpgradeID":0,
 						"SpecName":"Assist the Puppet",
-						"UpgradeID":"8645"
+						"UpgradeID":8645
 					},
 					{
 						"RequiredLvl":1000,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Dispose of the Fool",
-						"UpgradeID":"8646"
+						"UpgradeID":8646
 					}
 				]
 			],
@@ -4943,7 +4965,7 @@
 		"HeroID":105,
 		"HeroName":"Dob",
 		"MaxLvl":2570,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -4964,25 +4986,25 @@
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Befriend the Magical",
-						"UpgradeID":"8742"
+						"UpgradeID":8742
 					},
 					{
 						"RequiredLvl":160,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Befriend the Friendly",
-						"UpgradeID":"8743"
+						"UpgradeID":8743
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Befriend the Quick",
-						"UpgradeID":"8744"
+						"UpgradeID":8744
 					},
 					{
 						"RequiredLvl":160,
 						"RequiredUpgradeID":0,
 						"SpecName":"Befriend Everybody!",
-						"UpgradeID":"8745"
+						"UpgradeID":8745
 					}
 				]
 			],
@@ -4993,7 +5015,7 @@
 		"HeroID":106,
 		"HeroName":"Blooshi",
 		"MaxLvl":1570,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -5020,21 +5042,21 @@
 				[
 					{
 						"RequiredLvl":100,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Sliced Souls",
-						"UpgradeID":"7523"
+						"UpgradeID":7523
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Skewered Souls",
-						"UpgradeID":"7524"
+						"UpgradeID":7524
 					},
 					{
 						"RequiredLvl":100,
 						"RequiredUpgradeID":0,
 						"SpecName":"Charred Souls",
-						"UpgradeID":"7525"
+						"UpgradeID":7525
 					}
 				],
 				[
@@ -5042,13 +5064,13 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Resilient Spirit",
-						"UpgradeID":"7526"
+						"UpgradeID":7526
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Wild Spirit",
-						"UpgradeID":"7527"
+						"UpgradeID":7527
 					}
 				]
 			],
@@ -5059,18 +5081,18 @@
 		"HeroID":108,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5078,18 +5100,18 @@
 		"HeroID":109,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5097,18 +5119,18 @@
 		"HeroID":110,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5116,18 +5138,18 @@
 		"HeroID":111,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5135,18 +5157,18 @@
 		"HeroID":112,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5154,7 +5176,7 @@
 		"HeroID":113,
 		"HeroName":"Egbert",
 		"MaxLvl":1400,
-		"Seat":"7",
+		"Seat":7,
 		"SpecDefines":{
 			"ddlList":[
 				"",
@@ -5183,13 +5205,13 @@
 						"RequiredLvl":200,
 						"RequiredUpgradeID":0,
 						"SpecName":"Atonement Begins with an Apology",
-						"UpgradeID":"8877"
+						"UpgradeID":8877
 					},
 					{
 						"RequiredLvl":200,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Team Chaos Team",
-						"UpgradeID":"8878"
+						"UpgradeID":8878
 					}
 				],
 				[
@@ -5197,19 +5219,19 @@
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Smoky Bombs",
-						"UpgradeID":"8879"
+						"UpgradeID":8879
 					},
 					{
 						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Health Kick",
-						"UpgradeID":"8880"
+						"UpgradeID":8880
 					},
 					{
 						"RequiredLvl":300,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Oxventure Capitalism",
-						"UpgradeID":"8881"
+						"UpgradeID":8881
 					}
 				]
 			],
@@ -5220,7 +5242,7 @@
 		"HeroID":114,
 		"HeroName":"Kent",
 		"MaxLvl":1930,
-		"Seat":"4",
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5241,13 +5263,13 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Robust Rivals",
-						"UpgradeID":"9355"
+						"UpgradeID":9355
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Potent Poison",
-						"UpgradeID":"9356"
+						"UpgradeID":9356
 					}
 				]
 			],
@@ -5258,7 +5280,7 @@
 		"HeroID":115,
 		"HeroName":"Virgil",
 		"MaxLvl":2220,
-		"Seat":"10",
+		"Seat":10,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5279,19 +5301,19 @@
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Mood: Relaxed",
-						"UpgradeID":"9607"
+						"UpgradeID":9607
 					},
 					{
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Mood: Anxious",
-						"UpgradeID":"9608"
+						"UpgradeID":9608
 					},
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Mood: Determined",
-						"UpgradeID":"9609"
+						"UpgradeID":9609
 					}
 				]
 			],
@@ -5302,7 +5324,7 @@
 		"HeroID":116,
 		"HeroName":"Warduke",
 		"MaxLvl":2930,
-		"Seat":"8",
+		"Seat":8,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5323,19 +5345,19 @@
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"Chaos Reigns",
-						"UpgradeID":"9619"
+						"UpgradeID":9619
 					},
 					{
 						"RequiredLvl":250,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Mercenary for Hire",
-						"UpgradeID":"9620"
+						"UpgradeID":9620
 					},
 					{
 						"RequiredLvl":250,
 						"RequiredUpgradeID":0,
 						"SpecName":"League of Malevolence",
-						"UpgradeID":"9621"
+						"UpgradeID":9621
 					}
 				]
 			],
@@ -5346,7 +5368,7 @@
 		"HeroID":117,
 		"HeroName":"Imoen",
 		"MaxLvl":1630,
-		"Seat":"11",
+		"Seat":11,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5365,27 +5387,27 @@
 				[
 					{
 						"RequiredLvl":40,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Beast Slaying Arrows",
-						"UpgradeID":"9643"
+						"UpgradeID":9643
 					},
 					{
 						"RequiredLvl":40,
 						"RequiredUpgradeID":0,
 						"SpecName":"Dragon Slaying Arrows",
-						"UpgradeID":"9644"
+						"UpgradeID":9644
 					},
 					{
 						"RequiredLvl":40,
 						"RequiredUpgradeID":0,
 						"SpecName":"Monstrosity Slaying Arrows",
-						"UpgradeID":"9645"
+						"UpgradeID":9645
 					},
 					{
 						"RequiredLvl":40,
 						"RequiredUpgradeID":0,
 						"SpecName":"Aberration Slaying Arrows",
-						"UpgradeID":"9646"
+						"UpgradeID":9646
 					}
 				]
 			],
@@ -5396,7 +5418,7 @@
 		"HeroID":118,
 		"HeroName":"Fen",
 		"MaxLvl":1560,
-		"Seat":"6",
+		"Seat":6,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5415,15 +5437,15 @@
 				[
 					{
 						"RequiredLvl":140,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Shadows of the Underdark",
-						"UpgradeID":"9761"
+						"UpgradeID":9761
 					},
 					{
 						"RequiredLvl":140,
 						"RequiredUpgradeID":0,
 						"SpecName":"Curse of the Dhampir",
-						"UpgradeID":"9762"
+						"UpgradeID":9762
 					}
 				]
 			],
@@ -5434,7 +5456,7 @@
 		"HeroID":119,
 		"HeroName":"Brother Uriah",
 		"MaxLvl":2840,
-		"Seat":"9",
+		"Seat":9,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5455,13 +5477,13 @@
 						"RequiredLvl":150,
 						"RequiredUpgradeID":0,
 						"SpecName":"Book of Exalted Deeds",
-						"UpgradeID":"9773"
+						"UpgradeID":9773
 					},
 					{
 						"RequiredLvl":150,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Book of Vile Darkness",
-						"UpgradeID":"9774"
+						"UpgradeID":9774
 					}
 				]
 			],
@@ -5472,7 +5494,7 @@
 		"HeroID":120,
 		"HeroName":"Solaak",
 		"MaxLvl":2810,
-		"Seat":"2",
+		"Seat":2,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5491,21 +5513,21 @@
 				[
 					{
 						"RequiredLvl":280,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Unwavering",
-						"UpgradeID":"10615"
+						"UpgradeID":10615
 					},
 					{
 						"RequiredLvl":280,
 						"RequiredUpgradeID":0,
 						"SpecName":"Emboldened",
-						"UpgradeID":"10616"
+						"UpgradeID":10616
 					},
 					{
 						"RequiredLvl":280,
 						"RequiredUpgradeID":0,
 						"SpecName":"Confidant",
-						"UpgradeID":"10617"
+						"UpgradeID":10617
 					}
 				]
 			],
@@ -5516,7 +5538,7 @@
 		"HeroID":121,
 		"HeroName":"Miria",
 		"MaxLvl":1730,
-		"Seat":"12",
+		"Seat":12,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5535,21 +5557,21 @@
 				[
 					{
 						"RequiredLvl":80,
-						"RequiredUpgradeID":"0",
+						"RequiredUpgradeID":0,
 						"SpecName":"Methodical",
-						"UpgradeID":"10670"
+						"UpgradeID":10670
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Intellectual",
-						"UpgradeID":"10671"
+						"UpgradeID":10671
 					},
 					{
 						"RequiredLvl":80,
 						"RequiredUpgradeID":0,
 						"SpecName":"Independent",
-						"UpgradeID":"10672"
+						"UpgradeID":10672
 					}
 				]
 			],
@@ -5559,8 +5581,8 @@
 	"122":{
 		"HeroID":122,
 		"HeroName":"Antrius",
-		"MaxLvl":50,
-		"Seat":"4",
+		"MaxLvl":2730,
+		"Seat":4,
 		"SpecDefines":{
 			"ddlList":[
 				""
@@ -5571,29 +5593,29 @@
 					"listIndex":{
 						"0":1
 					},
-					"reqLvl":25
+					"reqLvl":300
 				}
 			],
 			"setListSize":1,
 			"specList":[
 				[
 					{
-						"RequiredLvl":25,
-						"RequiredUpgradeID":"0",
+						"RequiredLvl":300,
+						"RequiredUpgradeID":0,
 						"SpecName":"Bard College",
-						"UpgradeID":"10798"
+						"UpgradeID":10798
 					},
 					{
-						"RequiredLvl":25,
+						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"Truly Awful Stats",
-						"UpgradeID":"10799"
+						"UpgradeID":10799
 					},
 					{
-						"RequiredLvl":25,
+						"RequiredLvl":300,
 						"RequiredUpgradeID":0,
 						"SpecName":"The \"A\" In Chaotic Is For Antrius",
-						"UpgradeID":"10800"
+						"UpgradeID":10800
 					}
 				]
 			],
@@ -5602,77 +5624,152 @@
 	},
 	"123":{
 		"HeroID":123,
-		"HeroName":"Y4E15",
-		"MaxLvl":1,
-		"Seat":"0",
+		"HeroName":"Nixie",
+		"MaxLvl":1460,
+		"Seat":1,
 		"SpecDefines":{
-			"ddlList":{
-				
-			},
-			"setList":{
-				
-			},
-			"setListSize":0,
-			"specList":{
-				
-			},
-			"specListSize":0
+			"ddlList":[
+				""
+			],
+			"setList":[
+				{
+					"listCount":1,
+					"listIndex":{
+						"0":1
+					},
+					"reqLvl":130
+				}
+			],
+			"setListSize":1,
+			"specList":[
+				[
+					{
+						"RequiredLvl":130,
+						"RequiredUpgradeID":0,
+						"SpecName":"Infernal Impact",
+						"UpgradeID":10890
+					},
+					{
+						"RequiredLvl":130,
+						"RequiredUpgradeID":0,
+						"SpecName":"Flawed Force",
+						"UpgradeID":10891
+					},
+					{
+						"RequiredLvl":130,
+						"RequiredUpgradeID":0,
+						"SpecName":"Anarchy Amplified",
+						"UpgradeID":10892
+					}
+				]
+			],
+			"specListSize":1
 		}
 	},
 	"124":{
 		"HeroID":124,
-		"HeroName":"Y4E15",
-		"MaxLvl":1,
-		"Seat":"0",
+		"HeroName":"Evandra",
+		"MaxLvl":1610,
+		"Seat":5,
 		"SpecDefines":{
-			"ddlList":{
-				
-			},
-			"setList":{
-				
-			},
-			"setListSize":0,
-			"specList":{
-				
-			},
-			"specListSize":0
+			"ddlList":[
+				""
+			],
+			"setList":[
+				{
+					"listCount":1,
+					"listIndex":{
+						"0":1
+					},
+					"reqLvl":200
+				}
+			],
+			"setListSize":1,
+			"specList":[
+				[
+					{
+						"RequiredLvl":200,
+						"RequiredUpgradeID":0,
+						"SpecName":"Powerful Allies",
+						"UpgradeID":11299
+					},
+					{
+						"RequiredLvl":200,
+						"RequiredUpgradeID":0,
+						"SpecName":"Fighting Force",
+						"UpgradeID":11300
+					},
+					{
+						"RequiredLvl":200,
+						"RequiredUpgradeID":0,
+						"SpecName":"Carnival Crew",
+						"UpgradeID":11301
+					}
+				]
+			],
+			"specListSize":1
 		}
 	},
 	"125":{
 		"HeroID":125,
-		"HeroName":"Y4E15",
-		"MaxLvl":1,
-		"Seat":"0",
+		"HeroName":"BBEG",
+		"MaxLvl":3820,
+		"Seat":3,
 		"SpecDefines":{
-			"ddlList":{
-				
-			},
-			"setList":{
-				
-			},
-			"setListSize":0,
-			"specList":{
-				
-			},
-			"specListSize":0
+			"ddlList":[
+				""
+			],
+			"setList":[
+				{
+					"listCount":1,
+					"listIndex":{
+						"0":1
+					},
+					"reqLvl":150
+				}
+			],
+			"setListSize":1,
+			"specList":[
+				[
+					{
+						"RequiredLvl":150,
+						"RequiredUpgradeID":0,
+						"SpecName":"Powergaming",
+						"UpgradeID":11544
+					},
+					{
+						"RequiredLvl":150,
+						"RequiredUpgradeID":0,
+						"SpecName":"Min-Maxing",
+						"UpgradeID":11545
+					},
+					{
+						"RequiredLvl":150,
+						"RequiredUpgradeID":0,
+						"SpecName":"Rules Lawyering",
+						"UpgradeID":11546
+					}
+				]
+			],
+			"specListSize":1
 		}
 	},
 	"126":{
 		"HeroID":126,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5680,18 +5777,18 @@
 		"HeroID":127,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5699,18 +5796,18 @@
 		"HeroID":128,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5718,18 +5815,18 @@
 		"HeroID":129,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5737,18 +5834,18 @@
 		"HeroID":130,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5756,18 +5853,18 @@
 		"HeroID":131,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5775,18 +5872,18 @@
 		"HeroID":132,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
@@ -5794,21 +5891,21 @@
 		"HeroID":133,
 		"HeroName":"Y4E15",
 		"MaxLvl":1,
-		"Seat":"0",
+		"Seat":0,
 		"SpecDefines":{
-			"ddlList":{
+			"ddlList":[
 				
-			},
-			"setList":{
+			],
+			"setList":[
 				
-			},
+			],
 			"setListSize":0,
-			"specList":{
+			"specList":[
 				
-			},
+			],
 			"specListSize":0
 		}
 	},
-	"LoadTime":14297,
-	"TimeStamp":"March 28, 2023 at 16:18:15"
+	"LoadTime":17141,
+	"TimeStamp":"May 19, 2023 at 07:43:23"
 }
