@@ -24,12 +24,12 @@ if !IsObject(g_NMAMaxLvl)
 Gui, ICScriptHub:Tab, No Modron Adventuring
 GUIFunctions.UseThemeTextColor()
 Gui, ICScriptHub:Font, w700
-Gui, ICScriptHub:Add, Text, x15 y80, BETA - No Modron Adventuring
+Gui, ICScriptHub:Add, Text, x15 y+10, BETA - No Modron Adventuring
 Gui, ICScriptHub:Add, Text, x15 y+2, No Modron Leveling, Specing, Ulting, and Resetting
 Gui, ICScriptHub:Font, w400
 Gui, ICScriptHub:Add, Text, x15 y+5, NOTE: This add on will take control of the mouse to select specializations.
 Gui, ICScriptHub:Add, Text, x15 y+10, NOTE: This add on will close the game to restart an adventure.
-Gui, ICScriptHub:Add, Text, x15 y+10, NOTE: This add on does save all settings on script restart.
+Gui, ICScriptHub:Add, Text, x15 y+10, NOTE: This add on does not save all settings on script restart.
 Gui, ICScriptHub:Add, Text, x15 y+10, Specialization Settings Status: 
 Gui, ICScriptHub:Add, Text, x+5 vNMA_Settings w300, % g_NMASpecSettings.TimeStamp ? "Loaded and dated " . g_NMASpecSettings.TimeStamp : "Not Loaded"
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_SpecSettings, Select/Create Spec. Settings
