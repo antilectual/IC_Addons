@@ -74,6 +74,8 @@ NMA_RunAdventuring()
     formationKey := {1:"q"} ; {1:"q", 2:"w", 3:"e"}
     favoriteFormation := 1
     g_NMAchampsToLevel := g_NMAlvlObj.NMA_GetChampionsToLevel(formationKey)
+    g_SF.PatronID := 0
+    g_ServerCall.activePatronID := 0
     while (g_NMADoAdventuring)
     {
         g_NMAlvlObj.DirectedInputNoCritical(,, formationKey[favoriteFormation])
