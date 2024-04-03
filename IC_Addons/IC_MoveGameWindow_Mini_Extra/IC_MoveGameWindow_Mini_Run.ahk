@@ -4,7 +4,7 @@
 
 #include %A_LineFile%\..\IC_MoveGameWindow_Mini_Component.ahk
 #include %A_LineFile%\..\..\..\SharedFunctions\ObjRegisterActive.ahk
-#include %A_LineFile%\..\..\..\SharedFunctions\SH_SharedFunctions.ahk
+#include %A_LineFile%\..\..\IC_Core\IC_SharedFunctions_Class.ahk
 
 global g_MoveGameWindow_Mini := new IC_MoveGameWindow_Mini
 global g_UserSettings := g_MoveGameWindow_Mini.SF.LoadObjectFromJSON(A_LineFile . "\..\..\..\settings.json")
