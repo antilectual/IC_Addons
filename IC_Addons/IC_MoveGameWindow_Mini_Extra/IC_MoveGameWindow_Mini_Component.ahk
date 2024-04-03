@@ -1,5 +1,4 @@
-g_GuidCreate := ComObjCreate("Scriptlet.TypeLib")
-g_guid := g_GuidCreate.Guid
+g_guid := ComObjCreate("Scriptlet.TypeLib").Guid
 g_Miniscripts[g_guid] := A_LineFile . "\..\IC_MoveGameWindow_Mini_Run.ahk"
 class IC_MoveGameWindow_Mini
 {

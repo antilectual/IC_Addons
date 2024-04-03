@@ -4,7 +4,7 @@
 
 #include %A_LineFile%\..\IC_ConvertBlessings_Mini_Component.ahk
 #include %A_LineFile%\..\..\..\SharedFunctions\ObjRegisterActive.ahk
-#include %A_LineFile%\..\..\..\SharedFunctions\IC_SharedFunctions_Class.ahk
+#include %A_LineFile%\..\..\IC_Core\IC_SharedFunctions_Class.ahk
 #include %A_LineFile%\..\..\..\ServerCalls\IC_ServerCalls_Class.ahk
 
 global g_ConvertBlessings_Mini := new IC_ConvertBlessings_Mini

@@ -109,7 +109,6 @@ Updater_Exit()
     MsgBox, 4,Closing Updater..., Restart Script Hub?
     IfMsgBox, Yes
     {
-        ; TODO: close script hub if it's open
         scriptHubLoc := A_LineFile . "\..\..\..\ICScriptHub.ahk"
         Run, %scriptHubLoc%
     }

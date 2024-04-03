@@ -1,7 +1,7 @@
 #include %A_LineFile%\..\..\..\SharedFunctions\json.ahk
 #include *i %A_LineFile%\..\..\..\SharedFunctions\MemoryRead\Imports\IC_GameVersion32_Import.ahk
 #include *i %A_LineFile%\..\..\..\SharedFunctions\MemoryRead\Imports\IC_GameVersion64_Import.ahk
-#include %A_LineFile%\..\..\..\SharedFunctions\IC_VersionHelper_Class.ahk
+#include %A_LineFile%\..\..\..\SharedFunctions\SH_VersionHelper.ahk
 
 class IC_MemoryUpdater_Class
 {
@@ -110,7 +110,7 @@ class IC_MemoryUpdater_Class
             Gui, MemoryUpdater:Show
             return
         }
-        fullImportsDirectory := A_LineFile . "\..\..\..\SharedFunctions\MemoryRead\Imports\"
+        fullImportsDirectory := A_LineFile . "\..\..\IC_Core\MemoryRead\Imports\"
         ; remove old \Imports\ Directory
         If( FileExist(fullImportsDirectory))
         {
@@ -355,12 +355,12 @@ class IC_MemoryUpdater_Class
         if(architecture == 32)
         {
             scriptImportsVersion := g_ImportsGameVersion32 . g_ImportsGameVersionPostFix32
-            return IC_VersionHelper_Class.IsVersionNewer(version, scriptImportsVersion)
+            return SH_VersionHelper.IsVersionNewer(version, scriptImportsVersion)
         }
         else if (architecture == 64)
         {
             scriptImportsVersion := g_ImportsGameVersion64 . g_ImportsGameVersionPostFix64
-            return IC_VersionHelper_Class.IsVersionNewer(version, scriptImportsVersion)
+            return SH_VersionHelper.IsVersionNewer(version, scriptImportsVersion)
         }
         else
         {

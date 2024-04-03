@@ -1,7 +1,7 @@
 ;Add GUI fields to Briv Gem Farm tab.
 Gui, ICScriptHub:Tab, About
-GuiControlGet, pos, ICScriptHub:Pos, VersionStringID
-posY += aboutGroupBoxHeight
+GuiControlGet, pos, ICScriptHub:Pos, AboutAddonGroupBox
+posY += AboutAddonGroupBoxHeight + 15
 Gui, ICScriptHub:Add, Button, x15 y%posY% w160 vButtonOpenMemoryUpdaterGui gMemory_Updater_Launch, Check for Updates
 
 Memory_Updater_Launch()

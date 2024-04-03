@@ -4,7 +4,7 @@ class IC_NMA_Functions
 
     DirectedInputNoCritical(hold := 1, release := 1, s* )
     {
-        timeout := 33
+        timeout := 5000
         directedInputStart := A_TickCount
         hwnd := g_SF.Hwnd
         ControlFocus,, ahk_id %hwnd%
@@ -17,7 +17,7 @@ class IC_NMA_Functions
                 {
                     g_InputsSent++
                     key := g_KeyMap[v]
-                    SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,%timeout%
+                    SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,,,%timeout%
                 }
             }
             if(release)
@@ -25,7 +25,7 @@ class IC_NMA_Functions
                 for k, v in values
                 {
                     key := g_KeyMap[v]
-                    SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,%timeout%
+                    SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,,,%timeout%
                 }
             }
         }
@@ -35,10 +35,10 @@ class IC_NMA_Functions
             if(hold)
             {
                 g_InputsSent++
-                SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,%timeout%
+                SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,,,%timeout%
             }
             if(release)
-                SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,%timeout%
+                SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,,,%timeout%
         }
     }
 
