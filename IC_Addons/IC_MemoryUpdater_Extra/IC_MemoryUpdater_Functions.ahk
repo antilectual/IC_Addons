@@ -275,6 +275,8 @@ class IC_MemoryUpdater_Class
         }
         remoteFile := JSON.Minify(remoteFile)
         localFile := JSON.Minify(localFile)
+        if localFile == "" ; in the case the remote file exists and local file is null
+            return true
         areEqual := InStr(remoteFile, localFile)
         return !areEqual
     }
