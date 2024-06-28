@@ -309,6 +309,9 @@ class IC_NMA_Functions
             msgbox, 4,, The script has failed specializing in %clickCount% consecutive attempts. Continue?
             IfMsgBox No
                global g_NMADoAdventuring := True
+            else
+                clickCount := 0
+                
         }
         isPurchased := g_SF.Memory.ReadHeroUpgradeIsPurchased(champID, specSettings[champID][1]["UpgradeID"])
         if (isPurchased)
