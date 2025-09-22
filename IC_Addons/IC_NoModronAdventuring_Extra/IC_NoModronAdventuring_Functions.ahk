@@ -2,46 +2,6 @@ class IC_NMA_Functions
 {
     endScript := false
 
-    DirectedInputNoCritical(hold := 1, release := 1, s* )
-    {
-        timeout := 5000
-        directedInputStart := A_TickCount
-        hwnd := g_SF.Hwnd
-        ControlFocus,, ahk_id %hwnd%
-        values := s
-        if(IsObject(values))
-        {
-            if(hold)
-            {
-                for k, v in values
-                {
-                    g_InputsSent++
-                    key := g_KeyMap[v]
-                    SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,,,%timeout%
-                }
-            }
-            if(release)
-            {
-                for k, v in values
-                {
-                    key := g_KeyMap[v]
-                    SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,,,%timeout%
-                }
-            }
-        }
-        else
-        {
-            key := g_KeyMap[values]
-            if(hold)
-            {
-                g_InputsSent++
-                SendMessage, 0x0100, %key%, 0,, ahk_id %hwnd%,,,,%timeout%
-            }
-            if(release)
-                SendMessage, 0x0101, %key%, 0xC0000001,, ahk_id %hwnd%,,,,%timeout%
-        }
-    }
-
     GetHeroDefines()
     {
         start := A_TickCount
@@ -58,7 +18,7 @@ class IC_NMA_Functions
         {
             ++champID
             ;only include owned heroes
-            isOwned := g_SF.Memory.ReadHeroIsOwned() ;GameManager.Game.gameInstances[0].Controller.UserData.HeroHandler.heroes[champID -1].Owned.Read()
+            isOwned := g_SF.Memory.ReadHeroIsOwned(champID) ;GameManager.Game.gameInstances[0].Controller.UserData.HeroHandler.heroes[champID -1].Owned.Read()
             if (!isOwned OR champID == 107)
                 Continue
             name := g_SF.Memory.ReadChampNameByID(champID)
@@ -71,8 +31,8 @@ class IC_NMA_Functions
             {
                 requiredLvl := g_SF.Memory.ReadHeroUpgradeRequiredLevel(champID, upgIndex)
                 ;some upgrades with required level of 9999
-                if (requiredLvl < 9999)
-                    defines[champID].MaxLvl := Max(requiredLvl, defines[champID].MaxLvl)
+                if (requiredLvl < 9999 AND requiredLvl != "")
+                    defines[champID].MaxLvl := Max(requiredLvl, defines[champID].MaxLvl * 1)
                 isSpec := g_SF.Memory.ReadHeroUpgradeIsSpec(champID, upgIndex)
                 if isSpec
                 {
@@ -86,9 +46,9 @@ class IC_NMA_Functions
                 ; OutputDebug, % "upgIndex " upgIndex . ": " . (A_TickCount - upgStartTimer) / 1000 . "s"
                 ; upgStartTimer := A_TickCount
             }
-            OutputDebug, % "Champ " champID . ": " . (A_TickCount - champStartTimer) / 1000 . "s"
+            OutputDebug, % name . " (" . champID . "): " . (A_TickCount - champStartTimer) / 1000 . "s"
             if(!foundSpec[champID])
-                OutputDebug, % name . " (" . champID . ") failed to find a specialization."
+                OutputDebug, % "`t Failed to find a specialization."
             champStartTimer := A_TickCount
             defines[champID].SpecDefines.SortSpecList()
         }
@@ -280,7 +240,7 @@ class IC_NMA_Functions
             if(currChampLevel == lastChampLevel) ; leveling failed, wait for next call
                 break
             lastChampLevel := currChampLevel
-            this.DirectedInputNoCritical(,, inputKey)
+            this.DirectedInput(,, inputKey)
             for k, v in specSettings[champID]
             {
                 if (v.RequiredLvl == g_SF.Memory.ReadChampLvlByID(champID))
@@ -379,7 +339,7 @@ class IC_NMA_Functions
         champLvl := g_SF.Memory.ReadChampLvlByID(champID)
         seat := g_SF.Memory.ReadChampSeatByID(champID)
         inputKey := "{F" . seat . "}"
-        this.DirectedInputNoCritical(,, inputKey)
+        this.DirectedInput(,, inputKey)
         sleep, 33
         global g_NMAlvlObj
         if (g_NMAlvlObj.IsSpec(champID, champLvl, g_NMASpecSettings))
@@ -396,7 +356,7 @@ class IC_NMA_Functions
             if(k AND k != -1 AND NMA_FireUlts)
             {
                 ultButton := g_SF.GetUltimateButtonByChampID(k)
-                this.DirectedInputNoCritical(,, ultButton)
+                this.DirectedInput(,, ultButton)
             }   
         }
     }

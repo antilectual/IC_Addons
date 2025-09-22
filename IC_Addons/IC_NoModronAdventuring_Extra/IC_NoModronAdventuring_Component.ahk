@@ -78,7 +78,7 @@ NMA_RunAdventuring()
     g_ServerCall.activePatronID := 0
     while (g_NMADoAdventuring)
     {
-        g_NMAlvlObj.DirectedInputNoCritical(,, formationKey[favoriteFormation])
+        g_NMAlvlObj.DirectedInput(,, formationKey[favoriteFormation])
         for k, v in g_NMAChampsToLevel
         { 
             Sleep, 20
@@ -88,7 +88,7 @@ NMA_RunAdventuring()
             g_NMAlvlObj.NMA_LevelAndSpec(favoriteFormation, k)
         }
         if (NMA_LevelClick)
-            g_NMAlvlObj.DirectedInputNoCritical(,, "{ClickDmg}")
+            g_NMAlvlObj.DirectedInput(,, "{ClickDmg}")
         if (!Mod( g_SF.Memory.ReadCurrentZone(), 5 ) AND Mod( g_SF.Memory.ReadHighestZone(), 5 ) AND !g_SF.Memory.ReadTransitioning())
             g_SF.ToggleAutoProgress( 1, true ) ; Toggle autoprogress to skip boss bag
         g_SF.ToggleAutoProgress(1,false)
