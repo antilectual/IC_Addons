@@ -38,8 +38,9 @@ Gui, ICScriptHub:Add, Text, x+5 vNMA_MaxLvl w300, % g_NMAMaxLvl.TimeStamp ? "Loa
 Gui, ICScriptHub:Add, Button, x15 y+10 w160 gNMA_BuildMaxLvlData, Load Max. Level Data
 Gui, ICScriptHub:Add, Text, x15 y+15, Choose area to restart the adventure at:
 GUIFunctions.UseThemeTextColor("InputBoxTextColor")
-Gui, ICScriptHub:Add, Edit, vNMA_RestartZone x15 y+10 w50, % g_NMAResetZone
+Gui, ICScriptHub:Add, Edit, vNMA_RestartZone x210 y+-17 w50, % g_NMAResetZone
 GUIFunctions.UseThemeTextColor()
+Gui, ICScriptHub:Add, Text, x265 y+-16, (0 disables it)
 Gui, ICScriptHub:Add, Checkbox, vNMA_CB1 x15 y+5 Checked Hidden, "Q"
 Gui, ICScriptHub:Add, Checkbox, x15 y+5 vNMA_LevelClick , Upgrade Click Damage
 Gui, ICScriptHub:Add, Checkbox, x15 y+5 vNMA_FireUlts , Fire Ultimates

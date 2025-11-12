@@ -305,7 +305,7 @@ class IC_NMA_Functions
         
     NMA_CheckForReset()
     {
-        if(g_SF.Memory.ReadCurrentZone() > g_NMAResetZone)
+        if(g_NMAResetZone > 0 AND g_SF.Memory.ReadCurrentZone() > g_NMAResetZone)
         {
             g_SF.ResetServerCall()
             g_SF.CurrentAdventure := g_SF.Memory.ReadCurrentObjID()
